@@ -24432,3 +24432,627 @@ make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/
 [armeabi] SharedLibrary  : libcocos2dcpp.so
 [armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
 make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= main.cpp
+[armeabi] Compile++ thumb: game_shared <= LoginBackScene.cpp
+[armeabi] Compile++ thumb: game_shared <= PayBackScene.cpp
+[armeabi] Compile++ thumb: game_shared <= NS_SDKFactory.cpp
+[armeabi] Compile++ thumb: game_shared <= NS_SDKManager.cpp
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+[armeabi] Compile++ thumb: game_shared <= SettingScene.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCBReader.cpp
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlButtonLoader.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlLoader.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCLabelBMFontLoader.cpp
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCLabelTTFLoader.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCLayerColorLoader.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCLayerGradientLoader.cpp
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCLayerLoader.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCMenuItemImageLoader.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCMenuItemLoader.cpp
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCNodeLoader.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCNodeLoaderLibrary.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCParticleSystemQuadLoader.cpp
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCScale9SpriteLoader.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCScrollViewLoader.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCSpriteLoader.cpp
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCBAnimationManager.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCBKeyframe.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCBSequence.cpp
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCBSequenceProperty.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCBValue.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCData.cpp
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= main.cpp
+[armeabi] Compile++ thumb: game_shared <= LoginBackScene.cpp
+[armeabi] Compile++ thumb: game_shared <= PayBackScene.cpp
+[armeabi] Compile++ thumb: game_shared <= NS_SDKFactory.cpp
+[armeabi] Compile++ thumb: game_shared <= NS_SDKManager.cpp
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+[armeabi] Compile++ thumb: game_shared <= SettingScene.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCNode+CCBRelativePositioning.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControl.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlButton.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlColourPicker.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlHuePicker.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlSaturationBrightnessPicker.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlSlider.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlSwitch.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlUtils.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCInvocation.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCScale9Sprite.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlPotentiometer.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlStepper.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCScrollView.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCTableView.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCTableViewCell.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCSorting.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCEditBox.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCEditBoxImplAndroid.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= HttpClient.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= WebSocket.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCPhysicsDebugNode.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCPhysicsSprite.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= LocalStorageAndroid.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCConfiguration.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCScheduler.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCCamera.cpp
+[armeabi] Compile thumb  : cocos2dx_static <= ccFPSImages.c
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAction.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionCamera.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionCatmullRom.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionEase.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionGrid.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionGrid3D.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionInstant.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionInterval.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionManager.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionPageTurn3D.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionProgressTimer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionTiledGrid.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionTween.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAtlasNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAffineTransform.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGeometry.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAutoreleasePool.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCDictionary.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCNS.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCObject.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSet.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCString.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCZone.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCArray.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCDataVisitor.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCDrawingPrimitives.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCDrawNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGrabber.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGrid.cpp
+[armeabi] Compile thumb  : cocos2dx_static <= aabb.c
+[armeabi] Compile thumb  : cocos2dx_static <= mat3.c
+[armeabi] Compile thumb  : cocos2dx_static <= mat4.c
+[armeabi] Compile thumb  : cocos2dx_static <= neon_matrix_impl.c
+[armeabi] Compile thumb  : cocos2dx_static <= plane.c
+[armeabi] Compile thumb  : cocos2dx_static <= quaternion.c
+[armeabi] Compile thumb  : cocos2dx_static <= ray2.c
+[armeabi] Compile thumb  : cocos2dx_static <= utility.c
+[armeabi] Compile thumb  : cocos2dx_static <= vec2.c
+[armeabi] Compile thumb  : cocos2dx_static <= vec3.c
+[armeabi] Compile thumb  : cocos2dx_static <= vec4.c
+[armeabi] Compile thumb  : cocos2dx_static <= mat4stack.c
+[armeabi] Compile thumb  : cocos2dx_static <= matrix.c
+[armeabi] Compile++ thumb: cocos2dx_static <= CCKeypadDelegate.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCKeypadDispatcher.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCLabelAtlas.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCLabelBMFont.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCLabelTTF.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCLayer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCScene.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTransitionPageTurn.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTransition.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTransitionProgress.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCMenu.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCMenuItem.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCClippingNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCMotionStreak.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCProgressTimer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCRenderTexture.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCParticleExamples.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCParticleSystem.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCParticleBatchNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCParticleSystemQuad.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCImageCommonWebp.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSAXParser.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCThread.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFileUtils.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= platform.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEGLViewProtocol.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCDevice.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEGLView.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAccelerometer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCApplication.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCCommon.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFileUtilsAndroid.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCImage.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= Java_org_cocos2dx_lib_Cocos2dxBitmap.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= Java_org_cocos2dx_lib_Cocos2dxHelper.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= Java_org_cocos2dx_lib_Cocos2dxRenderer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= Java_org_cocos2dx_lib_Cocos2dxAccelerometer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= JniHelper.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= IMEJni.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= TouchesJni.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= DPIJni.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCScriptSupport.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ccShaders.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGLProgram.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ccGLStateCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCShaderCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAnimation.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAnimationCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSprite.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSpriteBatchNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSpriteFrame.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSpriteFrameCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ccUTF8.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCNotificationCenter.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCProfiling.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPointExtension.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= TransformUtils.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCUserDefaultAndroid.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ccCArray.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= TGAlib.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= tinyxml2.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ZipUtils.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ioapi.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= unzip.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCComponent.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCComponentContainer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCIMEDispatcher.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTextFieldTTF.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTexture2D.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTextureAtlas.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTextureCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTextureETC.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTexturePVR.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCParallaxNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTMXLayer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTMXObjectGroup.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTMXTiledMap.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTMXXMLParser.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTileMapAtlas.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTouchDispatcher.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTouchHandler.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTouch.cpp
+[armeabi] Compile++ thumb: cocosdenshion_static <= SimpleAudioEngine.cpp
+[armeabi] Compile++ thumb: cocosdenshion_static <= SimpleAudioEngineJni.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2ChainShape.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2CircleShape.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2EdgeShape.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2PolygonShape.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2BroadPhase.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2CollideCircle.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2CollideEdge.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2CollidePolygon.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Collision.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Distance.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2DynamicTree.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2TimeOfImpact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2BlockAllocator.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Draw.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Math.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Settings.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2StackAllocator.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Timer.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2ChainAndCircleContact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2ChainAndPolygonContact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2CircleContact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Contact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2ContactSolver.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2EdgeAndCircleContact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2EdgeAndPolygonContact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2PolygonAndCircleContact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2PolygonContact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2DistanceJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2FrictionJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2GearJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Joint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2MouseJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2PrismaticJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2PulleyJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2RevoluteJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2RopeJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2WeldJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2WheelJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Rope.cpp
+[armeabi] Compile thumb  : chipmunk_static <= chipmunk.c
+[armeabi] Compile thumb  : chipmunk_static <= cpConstraint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpDampedRotarySpring.c
+[armeabi] Compile thumb  : chipmunk_static <= cpDampedSpring.c
+[armeabi] Compile thumb  : chipmunk_static <= cpGearJoint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpGrooveJoint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpPinJoint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpPivotJoint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpRatchetJoint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpRotaryLimitJoint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSimpleMotor.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSlideJoint.c
+[armeabi] Compile thumb  : cpufeatures <= cpu-features.c
+[armeabi] StaticLibrary  : libextension.a
+[armeabi] StaticLibrary  : libcocos2d.a
+[armeabi] StaticLibrary  : libcocosdenshion.a
+[armeabi] StaticLibrary  : libbox2d.a
+[armeabi] StaticLibrary  : libchipmunk.a
+[armeabi] StaticLibrary  : libcpufeatures.a
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Downloads/android-ndk-r8d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../libs
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= main.cpp
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/proj.android ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
