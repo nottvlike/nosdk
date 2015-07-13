@@ -25056,3 +25056,147 @@ make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/
 [armeabi] SharedLibrary  : libcocos2dcpp.so
 [armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
 make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/game_xx;../build_android/platform;../tools;../build_android;../../proj.android
+Using prebuilt externals
+Android NDK: WARNING: APP_PLATFORM android-15 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= AppDelegate.cpp
+[armeabi] Compile++ thumb: game_shared <= main.cpp
+[armeabi] Compile++ thumb: game_shared <= JavaHelper.cpp
+[armeabi] Compile++ thumb: game_shared <= GameOverScene.cpp
+[armeabi] Compile++ thumb: game_shared <= HelloWorldScene.cpp
+[armeabi] Compile++ thumb: game_shared <= LoginBackScene.cpp
+[armeabi] Compile++ thumb: game_shared <= PayBackScene.cpp
+[armeabi] Compile++ thumb: game_shared <= NS_SDKFactory.cpp
+[armeabi] Compile++ thumb: game_shared <= NS_SDKManager.cpp
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatform.cpp
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+[armeabi] Compile++ thumb: game_shared <= SettingScene.cpp
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/game_xx;../build_android/platform;../tools;../build_android;../../proj.android
+Using prebuilt externals
+Android NDK: WARNING: APP_PLATFORM android-15 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= main.cpp
+[armeabi] Compile++ thumb: game_shared <= AppDelegate.cpp
+[armeabi] Compile++ thumb: game_shared <= JavaHelper.cpp
+[armeabi] Compile++ thumb: game_shared <= GameOverScene.cpp
+[armeabi] Compile++ thumb: game_shared <= HelloWorldScene.cpp
+[armeabi] Compile++ thumb: game_shared <= LoginBackScene.cpp
+[armeabi] Compile++ thumb: game_shared <= PayBackScene.cpp
+[armeabi] Compile++ thumb: game_shared <= NS_SDKFactory.cpp
+[armeabi] Compile++ thumb: game_shared <= NS_SDKManager.cpp
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatform.cpp
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+[armeabi] Compile++ thumb: game_shared <= SettingScene.cpp
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/game_xx;../build_android/platform;../tools;../build_android;../../proj.android
+Using prebuilt externals
+Android NDK: WARNING: APP_PLATFORM android-15 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= main.cpp
+[armeabi] Compile++ thumb: game_shared <= AppDelegate.cpp
+[armeabi] Compile++ thumb: game_shared <= JavaHelper.cpp
+[armeabi] Compile++ thumb: game_shared <= GameOverScene.cpp
+[armeabi] Compile++ thumb: game_shared <= HelloWorldScene.cpp
+[armeabi] Compile++ thumb: game_shared <= LoginBackScene.cpp
+[armeabi] Compile++ thumb: game_shared <= PayBackScene.cpp
+[armeabi] Compile++ thumb: game_shared <= NS_SDKFactory.cpp
+[armeabi] Compile++ thumb: game_shared <= NS_SDKManager.cpp
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatform.cpp
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+[armeabi] Compile++ thumb: game_shared <= SettingScene.cpp
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/game_xx;../build_android/platform;../tools;../build_android;../../proj.android
+Using prebuilt externals
+Android NDK: WARNING: APP_PLATFORM android-15 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= main.cpp
+[armeabi] Compile++ thumb: game_shared <= AppDelegate.cpp
+[armeabi] Compile++ thumb: game_shared <= JavaHelper.cpp
+[armeabi] Compile++ thumb: game_shared <= GameOverScene.cpp
+[armeabi] Compile++ thumb: game_shared <= HelloWorldScene.cpp
+[armeabi] Compile++ thumb: game_shared <= LoginBackScene.cpp
+[armeabi] Compile++ thumb: game_shared <= PayBackScene.cpp
+[armeabi] Compile++ thumb: game_shared <= NS_SDKFactory.cpp
+[armeabi] Compile++ thumb: game_shared <= NS_SDKManager.cpp
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+[armeabi] Compile++ thumb: game_shared <= SettingScene.cpp
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/game_xx;../build_android/platform;../tools;../build_android;../../proj.android
+Using prebuilt externals
+Android NDK: WARNING: APP_PLATFORM android-15 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Compile++ thumb: game_shared <= main.cpp
+[armeabi] Compile++ thumb: game_shared <= AppDelegate.cpp
+[armeabi] Compile++ thumb: game_shared <= JavaHelper.cpp
+[armeabi] Compile++ thumb: game_shared <= GameOverScene.cpp
+[armeabi] Compile++ thumb: game_shared <= HelloWorldScene.cpp
+[armeabi] Compile++ thumb: game_shared <= LoginBackScene.cpp
+[armeabi] Compile++ thumb: game_shared <= PayBackScene.cpp
+[armeabi] Compile++ thumb: game_shared <= NS_SDKFactory.cpp
+[armeabi] Compile++ thumb: game_shared <= NS_SDKManager.cpp
+[armeabi] Compile++ thumb: game_shared <= NS_SDKPlatformAndroid.cpp
+[armeabi] Compile++ thumb: game_shared <= SettingScene.cpp
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+NDK_ROOT = /Users/nottvlike/Documents/program/android-ndk-r9d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../..
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+#############################
+../project_android/game_xx ../build_android/platform ../tools ../build_android ../../proj.android
+Using prebuilt externals
+Android NDK: WARNING: APP_PLATFORM android-15 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+Android NDK: WARNING:/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../../../cocos2dx/Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module game_shared    
+Android NDK:   libiconv.a    
+make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
