@@ -25200,3 +25200,2359 @@ Android NDK:   libiconv.a
 make: Entering directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
 [armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
 make: Leaving directory `/Users/nottvlike/Documents/github/nosdk/projects/main/proj.android'
+/projects_android/nosdk_xx/*
+NDK_ROOT = /Users/nottvlike/Downloads/android-ndk-r8d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../libs
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+NDK_ROOT = /Users/nottvlike/Downloads/android-ndk-r8d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../libs
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+NDK_ROOT = /Users/nottvlike/Downloads/android-ndk-r8d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../libs
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+../projects_android/nosdk_xx/AndroidManifest.xml
+../projects_android/nosdk_xx/res
+Buildfile: /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: MyGame
+  [gettype] Project Type: Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/gen
+[getlibpath] Library dependencies:
+[getlibpath] 
+[getlibpath] ------------------
+[getlibpath] Ordered libraries:
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xx/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xx/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: cocos2dxandroid
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/gen
+
+BUILD SUCCESSFUL
+Total time: 1 second
+jarsigner: 必须输入密钥口令
+../projects_android/nosdk_xx/AndroidManifest.xml
+../projects_android/nosdk_xx/res
+Buildfile: /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: MyGame
+  [gettype] Project Type: Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/gen
+[getlibpath] Library dependencies:
+[getlibpath] 
+[getlibpath] ------------------
+[getlibpath] Ordered libraries:
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xx/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xx/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: cocos2dxandroid
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/gen
+
+BUILD SUCCESSFUL
+Total time: 1 second
+jarsigner: 必须输入密钥口令
+../projects_android/nosdk_xx/AndroidManifest.xml
+../projects_android/nosdk_xx/res
+Buildfile: /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: MyGame
+  [gettype] Project Type: Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/gen
+[getlibpath] Library dependencies:
+[getlibpath] 
+[getlibpath] ------------------
+[getlibpath] Ordered libraries:
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xx/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xx/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: cocos2dxandroid
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/gen
+
+BUILD SUCCESSFUL
+Total time: 1 second
+jarsigner: 必须输入密钥口令
+../projects_android/nosdk_xx/AndroidManifest.xml
+../projects_android/nosdk_xx/res
+Buildfile: /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: MyGame
+  [gettype] Project Type: Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/gen
+[getlibpath] Library dependencies:
+[getlibpath] 
+[getlibpath] ------------------
+[getlibpath] Ordered libraries:
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xx/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xx/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: cocos2dxandroid
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/gen
+
+BUILD SUCCESSFUL
+Total time: 1 second
+jarsigner: 必须输入密钥口令
+../projects_android/nosdk_xx/AndroidManifest.xml
+../projects_android/nosdk_xx/res
+Buildfile: /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: MyGame
+  [gettype] Project Type: Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/gen
+[getlibpath] Library dependencies:
+[getlibpath] 
+[getlibpath] ------------------
+[getlibpath] Ordered libraries:
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xx/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xx/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: cocos2dxandroid
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/gen
+
+BUILD SUCCESSFUL
+Total time: 1 second
+jarsigner: 必须输入密钥口令
+../projects_android/nosdk_xx/AndroidManifest.xml
+../projects_android/nosdk_xx/res
+Buildfile: /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: MyGame
+  [gettype] Project Type: Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/gen
+[getlibpath] Library dependencies:
+[getlibpath] 
+[getlibpath] ------------------
+[getlibpath] Ordered libraries:
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xx/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xx/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: cocos2dxandroid
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/gen
+
+BUILD SUCCESSFUL
+Total time: 1 second
+jarsigner: 必须输入密钥口令
+../projects_android/nosdk_xx/AndroidManifest.xml
+../projects_android/nosdk_xx/res
+Buildfile: /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: MyGame
+  [gettype] Project Type: Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/gen
+[getlibpath] Library dependencies:
+[getlibpath] 
+[getlibpath] ------------------
+[getlibpath] Ordered libraries:
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xx/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xx/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: cocos2dxandroid
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/gen
+
+BUILD SUCCESSFUL
+Total time: 1 second
+   正在添加: META-INF/MANIFEST.MF
+   正在添加: META-INF/MYGAME.SF
+   正在添加: META-INF/MYGAME.RSA
+  正在签名: AndroidManifest.xml
+  正在签名: assets/app.config.txt
+  正在签名: assets/app.icf
+  正在签名: assets/background-music-aac.wav
+  正在签名: assets/control_normal.png
+  正在签名: assets/control_selected.png
+  正在签名: assets/development.icf
+  正在签名: assets/pew-pew-lei.wav
+  正在签名: res/drawable-hdpi-v4/ic_launcher.png
+  正在签名: res/drawable-hdpi-v4/icon.png
+  正在签名: res/drawable-hdpi-v4/ld_launcher.png
+  正在签名: res/drawable-ldpi-v4/ic_launcher.png
+  正在签名: res/drawable-ldpi-v4/icon.png
+  正在签名: res/drawable-ldpi-v4/ld_launcher.png
+  正在签名: res/drawable-mdpi-v4/ic_launcher.png
+  正在签名: res/drawable-mdpi-v4/icon.png
+  正在签名: res/drawable-mdpi-v4/ld_launcher.png
+  正在签名: res/drawable-xhdpi-v4/bg_ticket_list.9.png
+  正在签名: res/drawable-xhdpi-v4/ic_launcher.png
+  正在签名: res/drawable-xhdpi-v4/icon.png
+  正在签名: res/drawable-xhdpi-v4/ld_launcher.png
+  正在签名: res/layout/activity_main.xml
+  正在签名: res/layout/gam_layout.xml
+  正在签名: res/layout/gamlayout.xml
+  正在签名: res/layout/payment.xml
+  正在签名: resources.arsc
+  正在签名: classes.dex
+  正在签名: assets/ll_call_normal.png
+  正在签名: assets/ll_call_pressed.png
+  正在签名: assets/ll_card.png
+  正在签名: assets/ll_choose_normal.png
+  正在签名: assets/ll_choose_pressed.png
+  正在签名: assets/ll_clear_normal.png
+  正在签名: assets/ll_clear_pressed.png
+  正在签名: assets/ll_dialog_logo.png
+  正在签名: assets/ll_help_hint.png
+  正在签名: assets/ll_icon_back.png
+  正在签名: assets/ll_icon_bankcard_select.png
+  正在签名: assets/ll_icon_bg_loading.png
+  正在签名: assets/ll_icon_loading.png
+  正在签名: assets/ll_icon_menu.png
+  正在签名: assets/ll_icon_more_normal.png
+  正在签名: assets/ll_icon_more_pressed.png
+  正在签名: assets/ll_info_bright.png
+  正在签名: assets/ll_info_normal.png
+  正在签名: assets/ll_pay_failure.png
+  正在签名: assets/ll_pay_plus_normal.png
+  正在签名: assets/ll_pay_plus_pressed.png
+  正在签名: assets/ll_pay_reduce_normal.png
+  正在签名: assets/ll_pay_reduce_pressed.png
+  正在签名: assets/ll_people.png
+  正在签名: assets/ll_stand_patternindicator_grid_focused.png
+  正在签名: assets/ll_stand_patternindicator_grid_normal.png
+  正在签名: assets/ll_stand_pattern_grid_normal.png
+  正在签名: assets/ll_stand_pattern_grid_touch.png
+  正在签名: assets/ll_title_logo.png
+  正在签名: assets/ll_title_more.png
+  正在签名: assets/bg_bind_phone.9.png
+  正在签名: assets/bg_bind_phone_press.9.png
+  正在签名: assets/bg_cancel_btn.9.png
+  正在签名: assets/bg_cancel_btn_press.9.png
+  正在签名: assets/bg_know_btn.9.png
+  正在签名: assets/bg_know_btn_press.9.png
+  正在签名: assets/bg_login_bind_phone.png
+  正在签名: assets/bg_login_bind_phone_press.png
+  正在签名: assets/bg_login_btn.png
+  正在签名: assets/bg_money_btn.9.png
+  正在签名: assets/bg_money_btn_press.9.png
+  正在签名: assets/bg_pay.9.png
+  正在签名: assets/bg_pay_btn.9.png
+  正在签名: assets/bg_pay_btn_press.9.png
+  正在签名: assets/bg_pay_way.9.png
+  正在签名: assets/bg_pay_way_press.9.png
+  正在签名: assets/bg_phone_number.png
+  正在签名: assets/bg_reg_btn.png
+  正在签名: assets/bg_reg_btn_press.png
+  正在签名: assets/bg_reg_suc_big.png
+  正在签名: assets/bg_reg_suc_small.png
+  正在签名: assets/bg_top_bar.9.png
+  正在签名: assets/bg_user_account.png
+  正在签名: assets/bg_user_pwd.png
+  正在签名: assets/bg_white.9.png
+  正在签名: assets/CustomConfig.properties
+  正在签名: assets/icon_alipay.png
+  正在签名: assets/icon_back.png
+  正在签名: assets/icon_back_press.png
+  正在签名: assets/icon_bank_card.png
+  正在签名: assets/icon_caifu.png
+  正在签名: assets/icon_charge_card.png
+  正在签名: assets/icon_game_card.png
+  正在签名: assets/icon_lianlian_pay.png
+  正在签名: assets/icon_loading_white.png
+  正在签名: assets/icon_logo.png
+  正在签名: lib/armeabi/libcocos2dcpp.so
+jar 已签名。
+
+警告: 
+未提供 -tsa 或 -tsacert, 此 jar 没有时间戳。如果没有时间戳, 则在签名者证书的到期日期 (2019-07-13) 或以后的任何撤销日期之后, 用户可能无法验证此 jar。
+../projects_android/nosdk_xiaomi/AndroidManifest.xml
+../projects_android/nosdk_xiaomi/res
+Buildfile: /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: MyGame
+  [gettype] Project Type: Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/gen
+[getlibpath] Library dependencies:
+[getlibpath] 
+[getlibpath] ------------------
+[getlibpath] Ordered libraries:
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xiaomi/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xiaomi/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: cocos2dxandroid
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/gen
+
+BUILD SUCCESSFUL
+Total time: 1 second
+jarsigner: 无法打开 jar 文件: bin/MyGame-release-unsigned.apk
+../projects_android/nosdk_xiaomi/AndroidManifest.xml
+../projects_android/nosdk_xiaomi/res
+Buildfile: /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: MyGame
+  [gettype] Project Type: Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/gen
+[getlibpath] Library dependencies:
+[getlibpath] 
+[getlibpath] ------------------
+[getlibpath] Ordered libraries:
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xiaomi/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xiaomi/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: cocos2dxandroid
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/gen
+
+BUILD SUCCESSFUL
+Total time: 1 second
+   正在添加: META-INF/MANIFEST.MF
+   正在添加: META-INF/MYGAME.SF
+   正在添加: META-INF/MYGAME.RSA
+  正在签名: AndroidManifest.xml
+  正在签名: assets/app.config.txt
+  正在签名: assets/app.icf
+  正在签名: assets/background-music-aac.wav
+  正在签名: assets/control_normal.png
+  正在签名: assets/control_selected.png
+  正在签名: assets/development.icf
+  正在签名: assets/pew-pew-lei.wav
+  正在签名: res/drawable-hdpi-v4/ic_launcher.png
+  正在签名: res/drawable-hdpi-v4/icon.png
+  正在签名: res/drawable-hdpi-v4/ld_launcher.png
+  正在签名: res/drawable-ldpi-v4/ic_launcher.png
+  正在签名: res/drawable-ldpi-v4/icon.png
+  正在签名: res/drawable-ldpi-v4/ld_launcher.png
+  正在签名: res/drawable-mdpi-v4/ic_launcher.png
+  正在签名: res/drawable-mdpi-v4/icon.png
+  正在签名: res/drawable-mdpi-v4/ld_launcher.png
+  正在签名: res/drawable-xhdpi-v4/bg_ticket_list.9.png
+  正在签名: res/drawable-xhdpi-v4/ic_launcher.png
+  正在签名: res/drawable-xhdpi-v4/icon.png
+  正在签名: res/drawable-xhdpi-v4/ld_launcher.png
+  正在签名: res/layout/activity_main.xml
+  正在签名: res/layout/gam_layout.xml
+  正在签名: res/layout/gamlayout.xml
+  正在签名: res/layout/payment.xml
+  正在签名: resources.arsc
+  正在签名: classes.dex
+  正在签名: assets/binlogaV6
+  正在签名: assets/binlogxV6
+  正在签名: assets/sologaV6
+  正在签名: assets/sologxV6
+  正在签名: lib/armeabi/libcocos2dcpp.so
+jar 已签名。
+
+警告: 
+未提供 -tsa 或 -tsacert, 此 jar 没有时间戳。如果没有时间戳, 则在签名者证书的到期日期 (2019-07-13) 或以后的任何撤销日期之后, 用户可能无法验证此 jar。
+../projects_android/nosdk_xx/AndroidManifest.xml
+../projects_android/nosdk_xx/res
+Buildfile: /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: MyGame
+  [gettype] Project Type: Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/gen
+[getlibpath] Library dependencies:
+[getlibpath] 
+[getlibpath] ------------------
+[getlibpath] Ordered libraries:
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xx/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xx/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: cocos2dxandroid
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/gen
+
+BUILD SUCCESSFUL
+Total time: 1 second
+   正在添加: META-INF/MANIFEST.MF
+   正在添加: META-INF/MYGAME.SF
+   正在添加: META-INF/MYGAME.RSA
+  正在签名: AndroidManifest.xml
+  正在签名: assets/app.config.txt
+  正在签名: assets/app.icf
+  正在签名: assets/background-music-aac.wav
+  正在签名: assets/control_normal.png
+  正在签名: assets/control_selected.png
+  正在签名: assets/development.icf
+  正在签名: assets/pew-pew-lei.wav
+  正在签名: res/drawable-hdpi-v4/ic_launcher.png
+  正在签名: res/drawable-hdpi-v4/icon.png
+  正在签名: res/drawable-hdpi-v4/ld_launcher.png
+  正在签名: res/drawable-ldpi-v4/ic_launcher.png
+  正在签名: res/drawable-ldpi-v4/icon.png
+  正在签名: res/drawable-ldpi-v4/ld_launcher.png
+  正在签名: res/drawable-mdpi-v4/ic_launcher.png
+  正在签名: res/drawable-mdpi-v4/icon.png
+  正在签名: res/drawable-mdpi-v4/ld_launcher.png
+  正在签名: res/drawable-xhdpi-v4/bg_ticket_list.9.png
+  正在签名: res/drawable-xhdpi-v4/ic_launcher.png
+  正在签名: res/drawable-xhdpi-v4/icon.png
+  正在签名: res/drawable-xhdpi-v4/ld_launcher.png
+  正在签名: res/layout/activity_main.xml
+  正在签名: res/layout/gam_layout.xml
+  正在签名: res/layout/gamlayout.xml
+  正在签名: res/layout/payment.xml
+  正在签名: resources.arsc
+  正在签名: classes.dex
+  正在签名: assets/ll_call_normal.png
+  正在签名: assets/ll_call_pressed.png
+  正在签名: assets/ll_card.png
+  正在签名: assets/ll_choose_normal.png
+  正在签名: assets/ll_choose_pressed.png
+  正在签名: assets/ll_clear_normal.png
+  正在签名: assets/ll_clear_pressed.png
+  正在签名: assets/ll_dialog_logo.png
+  正在签名: assets/ll_help_hint.png
+  正在签名: assets/ll_icon_back.png
+  正在签名: assets/ll_icon_bankcard_select.png
+  正在签名: assets/ll_icon_bg_loading.png
+  正在签名: assets/ll_icon_loading.png
+  正在签名: assets/ll_icon_menu.png
+  正在签名: assets/ll_icon_more_normal.png
+  正在签名: assets/ll_icon_more_pressed.png
+  正在签名: assets/ll_info_bright.png
+  正在签名: assets/ll_info_normal.png
+  正在签名: assets/ll_pay_failure.png
+  正在签名: assets/ll_pay_plus_normal.png
+  正在签名: assets/ll_pay_plus_pressed.png
+  正在签名: assets/ll_pay_reduce_normal.png
+  正在签名: assets/ll_pay_reduce_pressed.png
+  正在签名: assets/ll_people.png
+  正在签名: assets/ll_stand_patternindicator_grid_focused.png
+  正在签名: assets/ll_stand_patternindicator_grid_normal.png
+  正在签名: assets/ll_stand_pattern_grid_normal.png
+  正在签名: assets/ll_stand_pattern_grid_touch.png
+  正在签名: assets/ll_title_logo.png
+  正在签名: assets/ll_title_more.png
+  正在签名: assets/bg_bind_phone.9.png
+  正在签名: assets/bg_bind_phone_press.9.png
+  正在签名: assets/bg_cancel_btn.9.png
+  正在签名: assets/bg_cancel_btn_press.9.png
+  正在签名: assets/bg_know_btn.9.png
+  正在签名: assets/bg_know_btn_press.9.png
+  正在签名: assets/bg_login_bind_phone.png
+  正在签名: assets/bg_login_bind_phone_press.png
+  正在签名: assets/bg_login_btn.png
+  正在签名: assets/bg_money_btn.9.png
+  正在签名: assets/bg_money_btn_press.9.png
+  正在签名: assets/bg_pay.9.png
+  正在签名: assets/bg_pay_btn.9.png
+  正在签名: assets/bg_pay_btn_press.9.png
+  正在签名: assets/bg_pay_way.9.png
+  正在签名: assets/bg_pay_way_press.9.png
+  正在签名: assets/bg_phone_number.png
+  正在签名: assets/bg_reg_btn.png
+  正在签名: assets/bg_reg_btn_press.png
+  正在签名: assets/bg_reg_suc_big.png
+  正在签名: assets/bg_reg_suc_small.png
+  正在签名: assets/bg_top_bar.9.png
+  正在签名: assets/bg_user_account.png
+  正在签名: assets/bg_user_pwd.png
+  正在签名: assets/bg_white.9.png
+  正在签名: assets/CustomConfig.properties
+  正在签名: assets/icon_alipay.png
+  正在签名: assets/icon_back.png
+  正在签名: assets/icon_back_press.png
+  正在签名: assets/icon_bank_card.png
+  正在签名: assets/icon_caifu.png
+  正在签名: assets/icon_charge_card.png
+  正在签名: assets/icon_game_card.png
+  正在签名: assets/icon_lianlian_pay.png
+  正在签名: assets/icon_loading_white.png
+  正在签名: assets/icon_logo.png
+  正在签名: lib/armeabi/libcocos2dcpp.so
+jar 已签名。
+
+警告: 
+未提供 -tsa 或 -tsacert, 此 jar 没有时间戳。如果没有时间戳, 则在签名者证书的到期日期 (2019-07-13) 或以后的任何撤销日期之后, 用户可能无法验证此 jar。
+../projects_android/nosdk_xiaomi/AndroidManifest.xml
+../projects_android/nosdk_xiaomi/res
+Buildfile: /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: MyGame
+  [gettype] Project Type: Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/gen
+[getlibpath] Library dependencies:
+[getlibpath] 
+[getlibpath] ------------------
+[getlibpath] Ordered libraries:
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xiaomi/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xiaomi/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: cocos2dxandroid
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/gen
+
+BUILD SUCCESSFUL
+Total time: 1 second
+   正在添加: META-INF/MANIFEST.MF
+   正在添加: META-INF/MYGAME.SF
+   正在添加: META-INF/MYGAME.RSA
+  正在签名: AndroidManifest.xml
+  正在签名: assets/app.config.txt
+  正在签名: assets/app.icf
+  正在签名: assets/background-music-aac.wav
+  正在签名: assets/control_normal.png
+  正在签名: assets/control_selected.png
+  正在签名: assets/development.icf
+  正在签名: assets/pew-pew-lei.wav
+  正在签名: res/drawable-hdpi-v4/ic_launcher.png
+  正在签名: res/drawable-hdpi-v4/icon.png
+  正在签名: res/drawable-hdpi-v4/ld_launcher.png
+  正在签名: res/drawable-ldpi-v4/ic_launcher.png
+  正在签名: res/drawable-ldpi-v4/icon.png
+  正在签名: res/drawable-ldpi-v4/ld_launcher.png
+  正在签名: res/drawable-mdpi-v4/ic_launcher.png
+  正在签名: res/drawable-mdpi-v4/icon.png
+  正在签名: res/drawable-mdpi-v4/ld_launcher.png
+  正在签名: res/drawable-xhdpi-v4/bg_ticket_list.9.png
+  正在签名: res/drawable-xhdpi-v4/ic_launcher.png
+  正在签名: res/drawable-xhdpi-v4/icon.png
+  正在签名: res/drawable-xhdpi-v4/ld_launcher.png
+  正在签名: res/layout/activity_main.xml
+  正在签名: res/layout/gam_layout.xml
+  正在签名: res/layout/gamlayout.xml
+  正在签名: res/layout/payment.xml
+  正在签名: resources.arsc
+  正在签名: classes.dex
+  正在签名: assets/binlogaV6
+  正在签名: assets/binlogxV6
+  正在签名: assets/sologaV6
+  正在签名: assets/sologxV6
+  正在签名: lib/armeabi/libcocos2dcpp.so
+jar 已签名。
+
+警告: 
+未提供 -tsa 或 -tsacert, 此 jar 没有时间戳。如果没有时间戳, 则在签名者证书的到期日期 (2019-07-13) 或以后的任何撤销日期之后, 用户可能无法验证此 jar。
+../projects_android/nosdk_xiaomi/AndroidManifest.xml
+../projects_android/nosdk_xiaomi/backup
+../projects_android/nosdk_xiaomi/res
+Buildfile: /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: MyGame
+  [gettype] Project Type: Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/gen
+[getlibpath] Library dependencies:
+[getlibpath] 
+[getlibpath] ------------------
+[getlibpath] Ordered libraries:
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xiaomi/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xiaomi/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: cocos2dxandroid
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/gen
+
+BUILD SUCCESSFUL
+Total time: 1 second
+   正在添加: META-INF/MANIFEST.MF
+   正在添加: META-INF/MYGAME.SF
+   正在添加: META-INF/MYGAME.RSA
+  正在签名: AndroidManifest.xml
+  正在签名: assets/MiGameCenterSDKService.apk
+  正在签名: assets/app.config.txt
+  正在签名: assets/app.icf
+  正在签名: assets/background-music-aac.wav
+  正在签名: assets/control_normal.png
+  正在签名: assets/control_selected.png
+  正在签名: assets/development.icf
+  正在签名: assets/pew-pew-lei.wav
+  正在签名: assets/testImg.png
+  正在签名: res/drawable-hdpi-v4/ic_launcher.png
+  正在签名: res/drawable-hdpi-v4/icon.png
+  正在签名: res/drawable-hdpi-v4/ld_launcher.png
+  正在签名: res/drawable-ldpi-v4/ic_launcher.png
+  正在签名: res/drawable-ldpi-v4/icon.png
+  正在签名: res/drawable-ldpi-v4/ld_launcher.png
+  正在签名: res/drawable-mdpi-v4/ic_launcher.png
+  正在签名: res/drawable-mdpi-v4/icon.png
+  正在签名: res/drawable-mdpi-v4/ld_launcher.png
+  正在签名: res/drawable-xhdpi-v4/bg_ticket_list.9.png
+  正在签名: res/drawable-xhdpi-v4/ic_launcher.png
+  正在签名: res/drawable-xhdpi-v4/icon.png
+  正在签名: res/drawable-xhdpi-v4/ld_launcher.png
+  正在签名: res/layout/activity_main.xml
+  正在签名: res/layout/gam_layout.xml
+  正在签名: res/layout/gamlayout.xml
+  正在签名: res/layout/payment.xml
+  正在签名: resources.arsc
+  正在签名: classes.dex
+  正在签名: assets/binlogaV6
+  正在签名: assets/binlogxV6
+  正在签名: assets/sologaV6
+  正在签名: assets/sologxV6
+  正在签名: lib/armeabi/libcocos2dcpp.so
+jar 已签名。
+
+警告: 
+未提供 -tsa 或 -tsacert, 此 jar 没有时间戳。如果没有时间戳, 则在签名者证书的到期日期 (2019-07-13) 或以后的任何撤销日期之后, 用户可能无法验证此 jar。
+NDK_ROOT = /Users/nottvlike/Downloads/android-ndk-r8d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../libs
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+NDK_ROOT = /Users/nottvlike/Downloads/android-ndk-r8d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../libs
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+../projects_android/nosdk_xx/AndroidManifest.xml
+../projects_android/nosdk_xx/res
+Buildfile: /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: MyGame
+  [gettype] Project Type: Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/gen
+[getlibpath] Library dependencies:
+[getlibpath] 
+[getlibpath] ------------------
+[getlibpath] Ordered libraries:
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xx/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xx/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: cocos2dxandroid
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/gen
+
+BUILD SUCCESSFUL
+Total time: 1 second
+   正在添加: META-INF/MANIFEST.MF
+   正在添加: META-INF/MYGAME.SF
+   正在添加: META-INF/MYGAME.RSA
+  正在签名: AndroidManifest.xml
+  正在签名: assets/MiGameCenterSDKService.apk
+  正在签名: assets/app.config.txt
+  正在签名: assets/app.icf
+  正在签名: assets/background-music-aac.wav
+  正在签名: assets/control_normal.png
+  正在签名: assets/control_selected.png
+  正在签名: assets/development.icf
+  正在签名: assets/fonts/Marker Felt.ttf
+  正在签名: assets/fonts/arial.ttf
+  正在签名: assets/hd/CloseNormal.png
+  正在签名: assets/hd/CloseSelected.png
+  正在签名: assets/hd/Player.png
+  正在签名: assets/hd/Projectile.png
+  正在签名: assets/hd/Target.png
+  正在签名: assets/pew-pew-lei.wav
+  正在签名: assets/sd/CloseNormal.png
+  正在签名: assets/sd/CloseSelected.png
+  正在签名: assets/sd/Player.png
+  正在签名: assets/sd/Projectile.png
+  正在签名: assets/sd/Target.png
+  正在签名: assets/sd/app.icf
+  正在签名: assets/testImg.png
+  正在签名: res/drawable-hdpi-v4/ic_launcher.png
+  正在签名: res/drawable-hdpi-v4/icon.png
+  正在签名: res/drawable-hdpi-v4/ld_launcher.png
+  正在签名: res/drawable-ldpi-v4/ic_launcher.png
+  正在签名: res/drawable-ldpi-v4/icon.png
+  正在签名: res/drawable-ldpi-v4/ld_launcher.png
+  正在签名: res/drawable-mdpi-v4/ic_launcher.png
+  正在签名: res/drawable-mdpi-v4/icon.png
+  正在签名: res/drawable-mdpi-v4/ld_launcher.png
+  正在签名: res/drawable-xhdpi-v4/bg_ticket_list.9.png
+  正在签名: res/drawable-xhdpi-v4/ic_launcher.png
+  正在签名: res/drawable-xhdpi-v4/icon.png
+  正在签名: res/drawable-xhdpi-v4/ld_launcher.png
+  正在签名: res/layout/activity_main.xml
+  正在签名: res/layout/gam_layout.xml
+  正在签名: res/layout/gamlayout.xml
+  正在签名: res/layout/payment.xml
+  正在签名: resources.arsc
+  正在签名: classes.dex
+  正在签名: assets/ll_call_normal.png
+  正在签名: assets/ll_call_pressed.png
+  正在签名: assets/ll_card.png
+  正在签名: assets/ll_choose_normal.png
+  正在签名: assets/ll_choose_pressed.png
+  正在签名: assets/ll_clear_normal.png
+  正在签名: assets/ll_clear_pressed.png
+  正在签名: assets/ll_dialog_logo.png
+  正在签名: assets/ll_help_hint.png
+  正在签名: assets/ll_icon_back.png
+  正在签名: assets/ll_icon_bankcard_select.png
+  正在签名: assets/ll_icon_bg_loading.png
+  正在签名: assets/ll_icon_loading.png
+  正在签名: assets/ll_icon_menu.png
+  正在签名: assets/ll_icon_more_normal.png
+  正在签名: assets/ll_icon_more_pressed.png
+  正在签名: assets/ll_info_bright.png
+  正在签名: assets/ll_info_normal.png
+  正在签名: assets/ll_pay_failure.png
+  正在签名: assets/ll_pay_plus_normal.png
+  正在签名: assets/ll_pay_plus_pressed.png
+  正在签名: assets/ll_pay_reduce_normal.png
+  正在签名: assets/ll_pay_reduce_pressed.png
+  正在签名: assets/ll_people.png
+  正在签名: assets/ll_stand_patternindicator_grid_focused.png
+  正在签名: assets/ll_stand_patternindicator_grid_normal.png
+  正在签名: assets/ll_stand_pattern_grid_normal.png
+  正在签名: assets/ll_stand_pattern_grid_touch.png
+  正在签名: assets/ll_title_logo.png
+  正在签名: assets/ll_title_more.png
+  正在签名: assets/bg_bind_phone.9.png
+  正在签名: assets/bg_bind_phone_press.9.png
+  正在签名: assets/bg_cancel_btn.9.png
+  正在签名: assets/bg_cancel_btn_press.9.png
+  正在签名: assets/bg_know_btn.9.png
+  正在签名: assets/bg_know_btn_press.9.png
+  正在签名: assets/bg_login_bind_phone.png
+  正在签名: assets/bg_login_bind_phone_press.png
+  正在签名: assets/bg_login_btn.png
+  正在签名: assets/bg_money_btn.9.png
+  正在签名: assets/bg_money_btn_press.9.png
+  正在签名: assets/bg_pay.9.png
+  正在签名: assets/bg_pay_btn.9.png
+  正在签名: assets/bg_pay_btn_press.9.png
+  正在签名: assets/bg_pay_way.9.png
+  正在签名: assets/bg_pay_way_press.9.png
+  正在签名: assets/bg_phone_number.png
+  正在签名: assets/bg_reg_btn.png
+  正在签名: assets/bg_reg_btn_press.png
+  正在签名: assets/bg_reg_suc_big.png
+  正在签名: assets/bg_reg_suc_small.png
+  正在签名: assets/bg_top_bar.9.png
+  正在签名: assets/bg_user_account.png
+  正在签名: assets/bg_user_pwd.png
+  正在签名: assets/bg_white.9.png
+  正在签名: assets/CustomConfig.properties
+  正在签名: assets/icon_alipay.png
+  正在签名: assets/icon_back.png
+  正在签名: assets/icon_back_press.png
+  正在签名: assets/icon_bank_card.png
+  正在签名: assets/icon_caifu.png
+  正在签名: assets/icon_charge_card.png
+  正在签名: assets/icon_game_card.png
+  正在签名: assets/icon_lianlian_pay.png
+  正在签名: assets/icon_loading_white.png
+  正在签名: assets/icon_logo.png
+  正在签名: lib/armeabi/libcocos2dcpp.so
+jar 已签名。
+
+警告: 
+未提供 -tsa 或 -tsacert, 此 jar 没有时间戳。如果没有时间戳, 则在签名者证书的到期日期 (2019-07-13) 或以后的任何撤销日期之后, 用户可能无法验证此 jar。
+../projects_android/nosdk_xiaomi/AndroidManifest.xml
+../projects_android/nosdk_xiaomi/backup
+../projects_android/nosdk_xiaomi/res
+Buildfile: /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: MyGame
+  [gettype] Project Type: Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/gen
+[getlibpath] Library dependencies:
+[getlibpath] 
+[getlibpath] ------------------
+[getlibpath] Ordered libraries:
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xiaomi/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xiaomi/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: cocos2dxandroid
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/gen
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+   正在添加: META-INF/MANIFEST.MF
+   正在添加: META-INF/MYGAME.SF
+   正在添加: META-INF/MYGAME.RSA
+  正在签名: AndroidManifest.xml
+  正在签名: assets/MiGameCenterSDKService.apk
+  正在签名: assets/app.config.txt
+  正在签名: assets/app.icf
+  正在签名: assets/background-music-aac.wav
+  正在签名: assets/control_normal.png
+  正在签名: assets/control_selected.png
+  正在签名: assets/development.icf
+  正在签名: assets/fonts/Marker Felt.ttf
+  正在签名: assets/fonts/arial.ttf
+  正在签名: assets/hd/CloseNormal.png
+  正在签名: assets/hd/CloseSelected.png
+  正在签名: assets/hd/Player.png
+  正在签名: assets/hd/Projectile.png
+  正在签名: assets/hd/Target.png
+  正在签名: assets/pew-pew-lei.wav
+  正在签名: assets/sd/CloseNormal.png
+  正在签名: assets/sd/CloseSelected.png
+  正在签名: assets/sd/Player.png
+  正在签名: assets/sd/Projectile.png
+  正在签名: assets/sd/Target.png
+  正在签名: assets/sd/app.icf
+  正在签名: assets/testImg.png
+  正在签名: res/drawable-hdpi-v4/ic_launcher.png
+  正在签名: res/drawable-hdpi-v4/icon.png
+  正在签名: res/drawable-hdpi-v4/ld_launcher.png
+  正在签名: res/drawable-ldpi-v4/ic_launcher.png
+  正在签名: res/drawable-ldpi-v4/icon.png
+  正在签名: res/drawable-ldpi-v4/ld_launcher.png
+  正在签名: res/drawable-mdpi-v4/ic_launcher.png
+  正在签名: res/drawable-mdpi-v4/icon.png
+  正在签名: res/drawable-mdpi-v4/ld_launcher.png
+  正在签名: res/drawable-xhdpi-v4/bg_ticket_list.9.png
+  正在签名: res/drawable-xhdpi-v4/ic_launcher.png
+  正在签名: res/drawable-xhdpi-v4/icon.png
+  正在签名: res/drawable-xhdpi-v4/ld_launcher.png
+  正在签名: res/layout/activity_main.xml
+  正在签名: res/layout/gam_layout.xml
+  正在签名: res/layout/gamlayout.xml
+  正在签名: res/layout/payment.xml
+  正在签名: resources.arsc
+  正在签名: classes.dex
+  正在签名: assets/binlogaV6
+  正在签名: assets/binlogxV6
+  正在签名: assets/sologaV6
+  正在签名: assets/sologxV6
+  正在签名: lib/armeabi/libcocos2dcpp.so
+jar 已签名。
+
+警告: 
+未提供 -tsa 或 -tsacert, 此 jar 没有时间戳。如果没有时间戳, 则在签名者证书的到期日期 (2019-07-13) 或以后的任何撤销日期之后, 用户可能无法验证此 jar。
+../projects_android/nosdk_xiaomi/AndroidManifest.xml
+../projects_android/nosdk_xiaomi/backup
+../projects_android/nosdk_xiaomi/res
+Buildfile: /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: MyGame
+  [gettype] Project Type: Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/gen
+[getlibpath] Library dependencies:
+[getlibpath] 
+[getlibpath] ------------------
+[getlibpath] Ordered libraries:
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xiaomi/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xiaomi/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: cocos2dxandroid
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/gen
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+   正在添加: META-INF/MANIFEST.MF
+   正在添加: META-INF/MYGAME.SF
+   正在添加: META-INF/MYGAME.RSA
+  正在签名: AndroidManifest.xml
+  正在签名: assets/MiGameCenterSDKService.apk
+  正在签名: assets/app.config.txt
+  正在签名: assets/app.icf
+  正在签名: assets/background-music-aac.wav
+  正在签名: assets/control_normal.png
+  正在签名: assets/control_selected.png
+  正在签名: assets/development.icf
+  正在签名: assets/fonts/Marker Felt.ttf
+  正在签名: assets/fonts/arial.ttf
+  正在签名: assets/hd/CloseNormal.png
+  正在签名: assets/hd/CloseSelected.png
+  正在签名: assets/hd/Player.png
+  正在签名: assets/hd/Projectile.png
+  正在签名: assets/hd/Target.png
+  正在签名: assets/pew-pew-lei.wav
+  正在签名: assets/sd/CloseNormal.png
+  正在签名: assets/sd/CloseSelected.png
+  正在签名: assets/sd/Player.png
+  正在签名: assets/sd/Projectile.png
+  正在签名: assets/sd/Target.png
+  正在签名: assets/sd/app.icf
+  正在签名: assets/testImg.png
+  正在签名: res/drawable-hdpi-v4/ic_launcher.png
+  正在签名: res/drawable-hdpi-v4/icon.png
+  正在签名: res/drawable-hdpi-v4/ld_launcher.png
+  正在签名: res/drawable-ldpi-v4/ic_launcher.png
+  正在签名: res/drawable-ldpi-v4/icon.png
+  正在签名: res/drawable-ldpi-v4/ld_launcher.png
+  正在签名: res/drawable-mdpi-v4/ic_launcher.png
+  正在签名: res/drawable-mdpi-v4/icon.png
+  正在签名: res/drawable-mdpi-v4/ld_launcher.png
+  正在签名: res/drawable-xhdpi-v4/bg_ticket_list.9.png
+  正在签名: res/drawable-xhdpi-v4/ic_launcher.png
+  正在签名: res/drawable-xhdpi-v4/icon.png
+  正在签名: res/drawable-xhdpi-v4/ld_launcher.png
+  正在签名: res/layout/activity_main.xml
+  正在签名: res/layout/gam_layout.xml
+  正在签名: res/layout/gamlayout.xml
+  正在签名: res/layout/payment.xml
+  正在签名: resources.arsc
+  正在签名: classes.dex
+  正在签名: assets/binlogaV6
+  正在签名: assets/binlogxV6
+  正在签名: assets/sologaV6
+  正在签名: assets/sologxV6
+  正在签名: lib/armeabi/libcocos2dcpp.so
+jar 已签名。
+
+警告: 
+未提供 -tsa 或 -tsacert, 此 jar 没有时间戳。如果没有时间戳, 则在签名者证书的到期日期 (2019-07-13) 或以后的任何撤销日期之后, 用户可能无法验证此 jar。
+../projects_android/nosdk_xiaomi/AndroidManifest.xml
+../projects_android/nosdk_xiaomi/backup
+../projects_android/nosdk_xiaomi/res
+Buildfile: /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: MyGame
+  [gettype] Project Type: Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/gen
+[getlibpath] Library dependencies:
+[getlibpath] 
+[getlibpath] ------------------
+[getlibpath] Ordered libraries:
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xiaomi/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xiaomi/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: cocos2dxandroid
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/gen
+
+BUILD SUCCESSFUL
+Total time: 1 second
+   正在添加: META-INF/MANIFEST.MF
+   正在添加: META-INF/MYGAME.SF
+   正在添加: META-INF/MYGAME.RSA
+  正在签名: AndroidManifest.xml
+  正在签名: assets/MiGameCenterSDKService.apk
+  正在签名: assets/app.config.txt
+  正在签名: assets/app.icf
+  正在签名: assets/background-music-aac.wav
+  正在签名: assets/control_normal.png
+  正在签名: assets/control_selected.png
+  正在签名: assets/development.icf
+  正在签名: assets/fonts/Marker Felt.ttf
+  正在签名: assets/fonts/arial.ttf
+  正在签名: assets/hd/CloseNormal.png
+  正在签名: assets/hd/CloseSelected.png
+  正在签名: assets/hd/Player.png
+  正在签名: assets/hd/Projectile.png
+  正在签名: assets/hd/Target.png
+  正在签名: assets/pew-pew-lei.wav
+  正在签名: assets/sd/CloseNormal.png
+  正在签名: assets/sd/CloseSelected.png
+  正在签名: assets/sd/Player.png
+  正在签名: assets/sd/Projectile.png
+  正在签名: assets/sd/Target.png
+  正在签名: assets/sd/app.icf
+  正在签名: assets/testImg.png
+  正在签名: res/drawable-hdpi-v4/ic_launcher.png
+  正在签名: res/drawable-hdpi-v4/icon.png
+  正在签名: res/drawable-hdpi-v4/ld_launcher.png
+  正在签名: res/drawable-ldpi-v4/ic_launcher.png
+  正在签名: res/drawable-ldpi-v4/icon.png
+  正在签名: res/drawable-ldpi-v4/ld_launcher.png
+  正在签名: res/drawable-mdpi-v4/ic_launcher.png
+  正在签名: res/drawable-mdpi-v4/icon.png
+  正在签名: res/drawable-mdpi-v4/ld_launcher.png
+  正在签名: res/drawable-xhdpi-v4/bg_ticket_list.9.png
+  正在签名: res/drawable-xhdpi-v4/ic_launcher.png
+  正在签名: res/drawable-xhdpi-v4/icon.png
+  正在签名: res/drawable-xhdpi-v4/ld_launcher.png
+  正在签名: res/layout/activity_main.xml
+  正在签名: res/layout/gam_layout.xml
+  正在签名: res/layout/gamlayout.xml
+  正在签名: res/layout/payment.xml
+  正在签名: resources.arsc
+  正在签名: classes.dex
+  正在签名: assets/binlogaV6
+  正在签名: assets/binlogxV6
+  正在签名: assets/sologaV6
+  正在签名: assets/sologxV6
+  正在签名: lib/armeabi/libcocos2dcpp.so
+jar 已签名。
+
+警告: 
+未提供 -tsa 或 -tsacert, 此 jar 没有时间戳。如果没有时间戳, 则在签名者证书的到期日期 (2019-07-13) 或以后的任何撤销日期之后, 用户可能无法验证此 jar。
+NDK_ROOT = /Users/nottvlike/Downloads/android-ndk-r8d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../libs
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+../projects_android/nosdk_main/AndroidManifest.xml
+../projects_android/nosdk_main/res
+Buildfile: /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: MyGame
+  [gettype] Project Type: Application
+
+-pre-clean:
+
+clean:
+[getlibpath] Library dependencies:
+[getlibpath] 
+[getlibpath] ------------------
+[getlibpath] Ordered libraries:
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_main/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_main/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: cocos2dxandroid
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/gen
+
+BUILD SUCCESSFUL
+Total time: 1 second
+   正在添加: META-INF/MANIFEST.MF
+   正在添加: META-INF/MYGAME.SF
+   正在添加: META-INF/MYGAME.RSA
+  正在签名: AndroidManifest.xml
+  正在签名: assets/MiGameCenterSDKService.apk
+  正在签名: assets/app.config.txt
+  正在签名: assets/app.icf
+  正在签名: assets/background-music-aac.wav
+  正在签名: assets/control_normal.png
+  正在签名: assets/control_selected.png
+  正在签名: assets/development.icf
+  正在签名: assets/fonts/Marker Felt.ttf
+  正在签名: assets/fonts/arial.ttf
+  正在签名: assets/hd/CloseNormal.png
+  正在签名: assets/hd/CloseSelected.png
+  正在签名: assets/hd/Player.png
+  正在签名: assets/hd/Projectile.png
+  正在签名: assets/hd/Target.png
+  正在签名: assets/pew-pew-lei.wav
+  正在签名: assets/sd/CloseNormal.png
+  正在签名: assets/sd/CloseSelected.png
+  正在签名: assets/sd/Player.png
+  正在签名: assets/sd/Projectile.png
+  正在签名: assets/sd/Target.png
+  正在签名: assets/sd/app.icf
+  正在签名: assets/testImg.png
+  正在签名: res/drawable-hdpi-v4/ic_launcher.png
+  正在签名: res/drawable-hdpi-v4/icon.png
+  正在签名: res/drawable-hdpi-v4/ld_launcher.png
+  正在签名: res/drawable-ldpi-v4/ic_launcher.png
+  正在签名: res/drawable-ldpi-v4/icon.png
+  正在签名: res/drawable-ldpi-v4/ld_launcher.png
+  正在签名: res/drawable-mdpi-v4/ic_launcher.png
+  正在签名: res/drawable-mdpi-v4/icon.png
+  正在签名: res/drawable-mdpi-v4/ld_launcher.png
+  正在签名: res/drawable-xhdpi-v4/bg_ticket_list.9.png
+  正在签名: res/drawable-xhdpi-v4/ic_launcher.png
+  正在签名: res/drawable-xhdpi-v4/icon.png
+  正在签名: res/drawable-xhdpi-v4/ld_launcher.png
+  正在签名: res/layout/activity_main.xml
+  正在签名: res/layout/gam_layout.xml
+  正在签名: res/layout/gamlayout.xml
+  正在签名: res/layout/payment.xml
+  正在签名: resources.arsc
+  正在签名: classes.dex
+  正在签名: lib/armeabi/libcocos2dcpp.so
+jar 已签名。
+
+警告: 
+未提供 -tsa 或 -tsacert, 此 jar 没有时间戳。如果没有时间戳, 则在签名者证书的到期日期 (2019-07-13) 或以后的任何撤销日期之后, 用户可能无法验证此 jar。
+NDK_ROOT = /Users/nottvlike/Downloads/android-ndk-r8d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../libs
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+../projects_android/nosdk_xiaomi/AndroidManifest.xml
+../projects_android/nosdk_xiaomi/backup
+../projects_android/nosdk_xiaomi/res
+Buildfile: /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: MyGame
+  [gettype] Project Type: Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/gen
+[getlibpath] Library dependencies:
+[getlibpath] 
+[getlibpath] ------------------
+[getlibpath] Ordered libraries:
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xiaomi/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xiaomi/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: cocos2dxandroid
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/gen
+
+BUILD SUCCESSFUL
+Total time: 1 second
+   正在添加: META-INF/MANIFEST.MF
+   正在添加: META-INF/MYGAME.SF
+   正在添加: META-INF/MYGAME.RSA
+  正在签名: AndroidManifest.xml
+  正在签名: assets/MiGameCenterSDKService.apk
+  正在签名: assets/app.config.txt
+  正在签名: assets/app.icf
+  正在签名: assets/background-music-aac.wav
+  正在签名: assets/control_normal.png
+  正在签名: assets/control_selected.png
+  正在签名: assets/development.icf
+  正在签名: assets/fonts/Marker Felt.ttf
+  正在签名: assets/fonts/arial.ttf
+  正在签名: assets/hd/CloseNormal.png
+  正在签名: assets/hd/CloseSelected.png
+  正在签名: assets/hd/Player.png
+  正在签名: assets/hd/Projectile.png
+  正在签名: assets/hd/Target.png
+  正在签名: assets/pew-pew-lei.wav
+  正在签名: assets/sd/CloseNormal.png
+  正在签名: assets/sd/CloseSelected.png
+  正在签名: assets/sd/Player.png
+  正在签名: assets/sd/Projectile.png
+  正在签名: assets/sd/Target.png
+  正在签名: assets/sd/app.icf
+  正在签名: assets/testImg.png
+  正在签名: res/drawable-hdpi-v4/ic_launcher.png
+  正在签名: res/drawable-hdpi-v4/icon.png
+  正在签名: res/drawable-hdpi-v4/ld_launcher.png
+  正在签名: res/drawable-ldpi-v4/ic_launcher.png
+  正在签名: res/drawable-ldpi-v4/icon.png
+  正在签名: res/drawable-ldpi-v4/ld_launcher.png
+  正在签名: res/drawable-mdpi-v4/ic_launcher.png
+  正在签名: res/drawable-mdpi-v4/icon.png
+  正在签名: res/drawable-mdpi-v4/ld_launcher.png
+  正在签名: res/drawable-xhdpi-v4/bg_ticket_list.9.png
+  正在签名: res/drawable-xhdpi-v4/ic_launcher.png
+  正在签名: res/drawable-xhdpi-v4/icon.png
+  正在签名: res/drawable-xhdpi-v4/ld_launcher.png
+  正在签名: res/layout/activity_main.xml
+  正在签名: res/layout/gam_layout.xml
+  正在签名: res/layout/gamlayout.xml
+  正在签名: res/layout/payment.xml
+  正在签名: resources.arsc
+  正在签名: classes.dex
+  正在签名: assets/binlogaV6
+  正在签名: assets/binlogxV6
+  正在签名: assets/sologaV6
+  正在签名: assets/sologxV6
+  正在签名: lib/armeabi/libcocos2dcpp.so
+jar 已签名。
+
+警告: 
+未提供 -tsa 或 -tsacert, 此 jar 没有时间戳。如果没有时间戳, 则在签名者证书的到期日期 (2019-07-13) 或以后的任何撤销日期之后, 用户可能无法验证此 jar。
+NDK_ROOT = /Users/nottvlike/Downloads/android-ndk-r8d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../libs
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+../projects_android/nosdk_xx/AndroidManifest.xml
+../projects_android/nosdk_xx/res
+Buildfile: /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: MyGame
+  [gettype] Project Type: Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/gen
+[getlibpath] Library dependencies:
+[getlibpath] 
+[getlibpath] ------------------
+[getlibpath] Ordered libraries:
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xx/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_xx/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: cocos2dxandroid
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/gen
+
+BUILD SUCCESSFUL
+Total time: 1 second
+   正在添加: META-INF/MANIFEST.MF
+   正在添加: META-INF/MYGAME.SF
+   正在添加: META-INF/MYGAME.RSA
+  正在签名: AndroidManifest.xml
+  正在签名: assets/MiGameCenterSDKService.apk
+  正在签名: assets/app.config.txt
+  正在签名: assets/app.icf
+  正在签名: assets/background-music-aac.wav
+  正在签名: assets/control_normal.png
+  正在签名: assets/control_selected.png
+  正在签名: assets/development.icf
+  正在签名: assets/fonts/Marker Felt.ttf
+  正在签名: assets/fonts/arial.ttf
+  正在签名: assets/hd/CloseNormal.png
+  正在签名: assets/hd/CloseSelected.png
+  正在签名: assets/hd/Player.png
+  正在签名: assets/hd/Projectile.png
+  正在签名: assets/hd/Target.png
+  正在签名: assets/pew-pew-lei.wav
+  正在签名: assets/sd/CloseNormal.png
+  正在签名: assets/sd/CloseSelected.png
+  正在签名: assets/sd/Player.png
+  正在签名: assets/sd/Projectile.png
+  正在签名: assets/sd/Target.png
+  正在签名: assets/sd/app.icf
+  正在签名: assets/testImg.png
+  正在签名: res/drawable-hdpi-v4/ic_launcher.png
+  正在签名: res/drawable-hdpi-v4/icon.png
+  正在签名: res/drawable-hdpi-v4/ld_launcher.png
+  正在签名: res/drawable-ldpi-v4/ic_launcher.png
+  正在签名: res/drawable-ldpi-v4/icon.png
+  正在签名: res/drawable-ldpi-v4/ld_launcher.png
+  正在签名: res/drawable-mdpi-v4/ic_launcher.png
+  正在签名: res/drawable-mdpi-v4/icon.png
+  正在签名: res/drawable-mdpi-v4/ld_launcher.png
+  正在签名: res/drawable-xhdpi-v4/bg_ticket_list.9.png
+  正在签名: res/drawable-xhdpi-v4/ic_launcher.png
+  正在签名: res/drawable-xhdpi-v4/icon.png
+  正在签名: res/drawable-xhdpi-v4/ld_launcher.png
+  正在签名: res/layout/activity_main.xml
+  正在签名: res/layout/gam_layout.xml
+  正在签名: res/layout/gamlayout.xml
+  正在签名: res/layout/payment.xml
+  正在签名: resources.arsc
+  正在签名: classes.dex
+  正在签名: assets/ll_call_normal.png
+  正在签名: assets/ll_call_pressed.png
+  正在签名: assets/ll_card.png
+  正在签名: assets/ll_choose_normal.png
+  正在签名: assets/ll_choose_pressed.png
+  正在签名: assets/ll_clear_normal.png
+  正在签名: assets/ll_clear_pressed.png
+  正在签名: assets/ll_dialog_logo.png
+  正在签名: assets/ll_help_hint.png
+  正在签名: assets/ll_icon_back.png
+  正在签名: assets/ll_icon_bankcard_select.png
+  正在签名: assets/ll_icon_bg_loading.png
+  正在签名: assets/ll_icon_loading.png
+  正在签名: assets/ll_icon_menu.png
+  正在签名: assets/ll_icon_more_normal.png
+  正在签名: assets/ll_icon_more_pressed.png
+  正在签名: assets/ll_info_bright.png
+  正在签名: assets/ll_info_normal.png
+  正在签名: assets/ll_pay_failure.png
+  正在签名: assets/ll_pay_plus_normal.png
+  正在签名: assets/ll_pay_plus_pressed.png
+  正在签名: assets/ll_pay_reduce_normal.png
+  正在签名: assets/ll_pay_reduce_pressed.png
+  正在签名: assets/ll_people.png
+  正在签名: assets/ll_stand_patternindicator_grid_focused.png
+  正在签名: assets/ll_stand_patternindicator_grid_normal.png
+  正在签名: assets/ll_stand_pattern_grid_normal.png
+  正在签名: assets/ll_stand_pattern_grid_touch.png
+  正在签名: assets/ll_title_logo.png
+  正在签名: assets/ll_title_more.png
+  正在签名: assets/bg_bind_phone.9.png
+  正在签名: assets/bg_bind_phone_press.9.png
+  正在签名: assets/bg_cancel_btn.9.png
+  正在签名: assets/bg_cancel_btn_press.9.png
+  正在签名: assets/bg_know_btn.9.png
+  正在签名: assets/bg_know_btn_press.9.png
+  正在签名: assets/bg_login_bind_phone.png
+  正在签名: assets/bg_login_bind_phone_press.png
+  正在签名: assets/bg_login_btn.png
+  正在签名: assets/bg_money_btn.9.png
+  正在签名: assets/bg_money_btn_press.9.png
+  正在签名: assets/bg_pay.9.png
+  正在签名: assets/bg_pay_btn.9.png
+  正在签名: assets/bg_pay_btn_press.9.png
+  正在签名: assets/bg_pay_way.9.png
+  正在签名: assets/bg_pay_way_press.9.png
+  正在签名: assets/bg_phone_number.png
+  正在签名: assets/bg_reg_btn.png
+  正在签名: assets/bg_reg_btn_press.png
+  正在签名: assets/bg_reg_suc_big.png
+  正在签名: assets/bg_reg_suc_small.png
+  正在签名: assets/bg_top_bar.9.png
+  正在签名: assets/bg_user_account.png
+  正在签名: assets/bg_user_pwd.png
+  正在签名: assets/bg_white.9.png
+  正在签名: assets/CustomConfig.properties
+  正在签名: assets/icon_alipay.png
+  正在签名: assets/icon_back.png
+  正在签名: assets/icon_back_press.png
+  正在签名: assets/icon_bank_card.png
+  正在签名: assets/icon_caifu.png
+  正在签名: assets/icon_charge_card.png
+  正在签名: assets/icon_game_card.png
+  正在签名: assets/icon_lianlian_pay.png
+  正在签名: assets/icon_loading_white.png
+  正在签名: assets/icon_logo.png
+  正在签名: lib/armeabi/libcocos2dcpp.so
+jar 已签名。
+
+警告: 
+未提供 -tsa 或 -tsacert, 此 jar 没有时间戳。如果没有时间戳, 则在签名者证书的到期日期 (2019-07-13) 或以后的任何撤销日期之后, 用户可能无法验证此 jar。
+NDK_ROOT = /Users/nottvlike/Downloads/android-ndk-r8d
+COCOS2DX_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/../libs
+APP_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/..
+APP_ANDROID_ROOT = /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android
+../projects_android/nosdk_main/AndroidManifest.xml
+../projects_android/nosdk_main/res
+Buildfile: /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: MyGame
+  [gettype] Project Type: Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/proj.android/gen
+[getlibpath] Library dependencies:
+[getlibpath] 
+[getlibpath] ------------------
+[getlibpath] Ordered libraries:
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_library/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: sgz15_xx
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_main/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/projects/main/projects_android/librarys_android/nosdk_main/gen
+
+nodeps:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /Users/nottvlike/Documents/program/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: cocos2dxandroid
+  [gettype] Project Type: Android Library
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/bin
+   [delete] Deleting directory /Users/nottvlike/Documents/github/nosdk/cocos2dx/platform/android/java/gen
+
+BUILD SUCCESSFUL
+Total time: 1 second
+   正在添加: META-INF/MANIFEST.MF
+   正在添加: META-INF/MYGAME.SF
+   正在添加: META-INF/MYGAME.RSA
+  正在签名: AndroidManifest.xml
+  正在签名: assets/MiGameCenterSDKService.apk
+  正在签名: assets/app.config.txt
+  正在签名: assets/app.icf
+  正在签名: assets/background-music-aac.wav
+  正在签名: assets/control_normal.png
+  正在签名: assets/control_selected.png
+  正在签名: assets/development.icf
+  正在签名: assets/fonts/Marker Felt.ttf
+  正在签名: assets/fonts/arial.ttf
+  正在签名: assets/hd/CloseNormal.png
+  正在签名: assets/hd/CloseSelected.png
+  正在签名: assets/hd/Player.png
+  正在签名: assets/hd/Projectile.png
+  正在签名: assets/hd/Target.png
+  正在签名: assets/pew-pew-lei.wav
+  正在签名: assets/sd/CloseNormal.png
+  正在签名: assets/sd/CloseSelected.png
+  正在签名: assets/sd/Player.png
+  正在签名: assets/sd/Projectile.png
+  正在签名: assets/sd/Target.png
+  正在签名: assets/sd/app.icf
+  正在签名: assets/testImg.png
+  正在签名: res/drawable-hdpi-v4/ic_launcher.png
+  正在签名: res/drawable-hdpi-v4/icon.png
+  正在签名: res/drawable-hdpi-v4/ld_launcher.png
+  正在签名: res/drawable-ldpi-v4/ic_launcher.png
+  正在签名: res/drawable-ldpi-v4/icon.png
+  正在签名: res/drawable-ldpi-v4/ld_launcher.png
+  正在签名: res/drawable-mdpi-v4/ic_launcher.png
+  正在签名: res/drawable-mdpi-v4/icon.png
+  正在签名: res/drawable-mdpi-v4/ld_launcher.png
+  正在签名: res/drawable-xhdpi-v4/bg_ticket_list.9.png
+  正在签名: res/drawable-xhdpi-v4/ic_launcher.png
+  正在签名: res/drawable-xhdpi-v4/icon.png
+  正在签名: res/drawable-xhdpi-v4/ld_launcher.png
+  正在签名: res/layout/activity_main.xml
+  正在签名: res/layout/gam_layout.xml
+  正在签名: res/layout/gamlayout.xml
+  正在签名: res/layout/payment.xml
+  正在签名: resources.arsc
+  正在签名: classes.dex
+  正在签名: lib/armeabi/libcocos2dcpp.so
+jar 已签名。
+
+警告: 
+未提供 -tsa 或 -tsacert, 此 jar 没有时间戳。如果没有时间戳, 则在签名者证书的到期日期 (2019-07-13) 或以后的任何撤销日期之后, 用户可能无法验证此 jar。
