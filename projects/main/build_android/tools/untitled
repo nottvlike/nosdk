@@ -1,1 +1,0 @@
-echo mygame | jarsigner -verbose -keystore ~/keystore/keystore -signedjar ./bin/game_xx_051_signed.apk ./bin/MyGame-release-unsigned.apk mygame
