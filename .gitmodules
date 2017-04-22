@@ -16,3 +16,9 @@
 [submodule "samples/Cpp/TestCpp/Resources/ccs-res"]
 	path = samples/Cpp/TestCpp/Resources/ccs-res
 	url = https://github.com/dumganhar/ccs-res
+[submodule "main/android/ui/itoa-dropins"]
+	path = main/android/ui/itoa-dropins
+	url = https://github.com/DmitrySkiba/itoa-dropins.git
+[submodule "main/android/ui/itoa-jnipp"]
+	path = main/android/ui/itoa-jnipp
+	url = https://github.com/DmitrySkiba/itoa-jnipp.git
