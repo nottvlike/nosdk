@@ -1,9 +1,9 @@
-#nosdk
+# nosdk
 
-##简介
+## 简介
 nosdk是用于实现一键打包的工具，用以解决国内android sdk平台多且繁，接入麻烦的问题。
 
-##功能
+## 功能
 
 * 解包apk重新打包（已实现）；
 * assets, res, libs里的非jar包资源文件合并（已实现）；
@@ -15,7 +15,7 @@ nosdk是用于实现一键打包的工具，用以解决国内android sdk平台�
 * android 功能动态添加，例如询问权限，沉浸式等功能（未实现）；
 * androidmanifest.xml动态合并（未实现）；
 
-##使用
+## 使用
 
 具体可以看下main/build.lua文件，apk处理的功能都是通过sdktool.lua脚本实现的，用到的工具都在main/bin里，有兴趣的可以看看查查！
 
@@ -24,7 +24,7 @@ nosdk是用于实现一键打包的工具，用以解决国内android sdk平台�
 * lua
 * lua的lfs库
 
-##合作
+## 合作
 
 项目规划：
 
@@ -46,12 +46,12 @@ nosdk是用于实现一键打包的工具，用以解决国内android sdk平台�
 
 以上能力有一个即可，若是纯粹想要打酱油并且有些想法的，也欢迎来找我聊聊。
 
-##相关文档
+## 相关文档
 
 * [我的博客][1]
 
 
-##联系方式
+## 联系方式
 
 * email: nottvlike@gmail.com
 * 微信：nottvlike
