@@ -35,7 +35,7 @@ Generated Files
 AppPackages
 SubmissionInfo
 *.hps
-
+main/bak
 # Ignore files build by ndk and eclipse
 bin/
 obj/
