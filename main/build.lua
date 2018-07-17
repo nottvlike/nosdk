@@ -37,4 +37,4 @@ end
 
 sdktool.help()
 
-buildChannel('demo.apk', 'unity', nil, nil, 'demo_new.apk')
+buildChannel('demo.apk', 'android', 'demo', nil, 'demo_new.apk')

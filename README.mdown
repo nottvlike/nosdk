@@ -21,8 +21,7 @@ nosdk是用于实现一键打包的工具，用以解决国内android sdk平台�
 
 依赖的工具：
 
-* lua
-* lua的lfs库
+* lua 5.3
 
 ## 合作
 
