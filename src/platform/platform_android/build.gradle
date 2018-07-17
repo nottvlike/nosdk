@@ -1,0 +1,55 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 27
+
+
+
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+task makeJar(type: Jar) {
+    delete 'build/libs/platform_android.jar'
+    baseName 'platform_android'
+    from('build/intermediates/classes/release')
+    exclude('android/',  'BuildConfig.class', 'R.class', 'nottvlike/')
+    exclude {
+        it.name.startsWith('R$');
+    }
+}
+
+task copyJar {
+    doLast {
+        copy {
+            from 'build/libs/platform_android.jar'
+            into "../../../main/platform/android/jars"
+        }
+
+    }
+}
+
+makeJar.dependsOn build
+copyJar.dependsOn makeJar
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    compileOnly project(':channel_demo')
+    compileOnly project(':sdktool')
+}

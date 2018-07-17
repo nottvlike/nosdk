@@ -1,3 +1,5 @@
+package.cpath = "./tool/?.so"
+
 local sdktool = require 'tool/sdktool'
 
 sdktool.rootPath = sdktool.currentDir() .. '/..'
@@ -9,6 +11,8 @@ function buildChannel(sourceApk, platformName, channelName, pluginTable, targetA
       sdktool.decodeApk(sourceApk)
 
       sdktool.createTmpPath()
+
+      --sdktool.loadAndroidManifest()
 
       sdktool.addSDKTool()
       sdktool.addPlatform(platformName)
@@ -25,6 +29,8 @@ function buildChannel(sourceApk, platformName, channelName, pluginTable, targetA
 
       sdktool.compileJars()
       sdktool.mergeSmali()
+
+      --sdktool.saveAndroidManifest()
 
       sdktool.buildApk(targetApk)
 end

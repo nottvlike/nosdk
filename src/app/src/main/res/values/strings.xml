@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NoSDK</string>
+    <string name="title_activity_demo_exit">DemoExit</string>
+</resources>
