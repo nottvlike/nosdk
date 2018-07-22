@@ -23,6 +23,12 @@ nosdk是用于实现一键打包的工具，用以解决国内android sdk平台�
 
 * lua 5.3
 
+未解决的问题：
+
+*   androidmanifest.xml读取，合并，保存；
+*   androidmanifest.xml字段替换，添加字段；
+*   gradle生成jar包没有包含依赖的代码（例如channel_demo本该包含sdktool）。
+
 ## 合作
 
 项目规划：

@@ -49,6 +49,6 @@ copyJar.dependsOn makeJar
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    compileOnly project(':channel_demo')
+    compileOnly project(':channel:channel_demo')
     compileOnly project(':sdktool')
 }

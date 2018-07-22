@@ -22,8 +22,8 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation project(':channel_demo')
-    implementation project(':platform_android')
+    implementation project(':channel:channel_demo')
+    implementation project(':platform:platform_android')
 
     compileOnly project(':sdktool')
 

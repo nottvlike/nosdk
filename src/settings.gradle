@@ -1,5 +1,1 @@
-include ':app', ':platform_android', ':platform_unity', ':sdktool', ':channel_demo'
-project(':platform_android').projectDir = new File('./platform/platform_android')
-project(':platform_unity').projectDir = new File('./platform/platform_unity')
-
-project(':channel_demo').projectDir = new File('./channel/channel_demo')
+include ':app', ':platform:platform_android', ':platform:platform_unity', ':sdktool', ':channel:channel_demo'
