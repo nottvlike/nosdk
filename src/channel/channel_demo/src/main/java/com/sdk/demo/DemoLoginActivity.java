@@ -2,12 +2,23 @@ package com.sdk.demo;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
 import com.common.sdktool.LoginInfo;
 import com.common.sdktool.SDKManager;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
 
 import nottvlike.channel_default.R;
 
@@ -22,6 +33,8 @@ public class DemoLoginActivity extends Activity {
         final TextView descriptionTextView = (TextView) findViewById(R.id.loginDescription);
         final TextView titleTextView = (TextView) findViewById(R.id.loginTitle);
         titleTextView.setText("DemoLogin");
+
+        final Activity tmpActivity = this;
 
         Button goLoginBtn = (Button) findViewById(R.id.loginGo);
         goLoginBtn.setOnClickListener(new View.OnClickListener() {
@@ -41,15 +54,60 @@ public class DemoLoginActivity extends Activity {
 
                     LoginInfo loginInfo = SDKManager.getInstance().getLoginInfo();
                     loginInfo.userName = accountTextView.getText().toString();
+                    final String userName = accountTextView.getText().toString();
+                    final String passwad = passwordTextView.getText().toString();
 
-                    if (SDKManager.getInstance().getIsLogined()) {
-                        SDKManager.getInstance().getSwitchAccountListener().OnSwitchAccountSuccess();
-                    }
-                    else {
-                        SDKManager.getInstance().getLoginListener().OnLoginSuccess();
-                    }
+                    new Thread(new Runnable(){
+                        @Override
+                        public void run() {
+                            Log.d(SDKManager.getInstance().TAG, "Begin HttpURLConnection");
 
-                    finish();
+                            String result = "";
+                            URL url;
+                            try {
+                                url = new URL(String.format("http://192.168.1.116:8080/nosdk/%s_login?username=%s&passwad=%s",
+                                        SDKManager.getInstance().getChannel(), userName, passwad));
+                                HttpURLConnection urlConn = (HttpURLConnection) url.openConnection();  //创建一个HTTP连接
+                                InputStreamReader in = new InputStreamReader(
+                                        urlConn.getInputStream()); // 获得读取的内容
+                                BufferedReader buffer = new BufferedReader(in); // 获取输入流对象
+                                String inputLine = null;
+                                //通过循环逐行读取输入流中的内容
+                                while ((inputLine = buffer.readLine()) != null) {
+                                    result += inputLine;
+                                }
+                                in.close(); //关闭字符输入流对象
+                                urlConn.disconnect();   //断开连接
+
+                                JSONObject object = new JSONObject(result);
+                                final String loginResult = object.optString("result");
+                                final String loginMessage = object.optString("message");
+
+                                tmpActivity.runOnUiThread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        if (loginResult.compareTo("0") == 0) {
+                                            SDKManager.getInstance().getLoginListener().OnLoginSuccess();
+                                            Log.d(SDKManager.getInstance().TAG, "Login success!");
+
+                                            finish();
+                                        }
+                                        else {
+                                            String loginFailedMessage = String.format("Login failed: %s", loginMessage);
+                                            Log.d(SDKManager.getInstance().TAG, loginFailedMessage);
+                                            descriptionTextView.setText(loginFailedMessage);
+                                        }
+                                    }
+                                });
+                            } catch (MalformedURLException e) {
+                                e.printStackTrace();
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                            }
+                        }
+                    }).start();
                 }
                 else {
                     descriptionTextView.setText(tips);
