@@ -1,6 +1,7 @@
 package.cpath = "./tool/?.so"
 
 local sdktool = require 'tool/sdktool'
+local xmltool = require 'tool/xmltool'
 
 sdktool.rootPath = sdktool.currentDir() .. '/..'
 
@@ -38,3 +39,7 @@ end
 sdktool.help()
 
 buildChannel('demo.apk', 'android', 'demo', nil, 'demo_new.apk')
+
+for i,v in pairs(xmltool) do
+      print(i,v)
+end
