@@ -14,6 +14,10 @@ public class SDKManager extends CommonSDKManager {
     boolean _sdkHasExit = false;
     boolean _isLogined = false;
 
+    public SDKManager() {
+        _channelName = "demo";
+    }
+
     public boolean getIsLogined() {
         return _isLogined;
     }
