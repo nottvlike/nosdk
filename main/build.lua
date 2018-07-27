@@ -37,7 +37,6 @@ function buildChannel(sourceApk, platformName, channelName, pluginTable, targetA
 end
 
 sdktool.help()
-
 buildChannel('demo.apk', 'android', 'demo', nil, 'demo_new.apk')
 
 for i,v in pairs(xmltool) do
