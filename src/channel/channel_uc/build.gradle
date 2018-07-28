@@ -1,0 +1,54 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 27
+
+
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation project(':sdktool')
+}
+
+task makeJar(type: Jar) {
+    delete 'build/libs/channel_uc.jar'
+    baseName 'channel_uc'
+    from('build/intermediates/classes/release')
+    exclude('android/', 'BuildConfig.class', 'R.class', 'nottvlike/')
+    exclude {
+        it.name.startsWith('R$');
+    }
+}
+
+task copyJar {
+    doLast {
+        copy {
+            from 'build/libs/channel_uc.jar'
+            into "../../../main/channel/uc/jars"
+        }
+
+    }
+}
+
+makeJar.dependsOn build
+copyJar.dependsOn makeJar

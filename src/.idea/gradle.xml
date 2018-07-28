@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/channel" />
             <option value="$PROJECT_DIR$/channel/channel_demo" />
+            <option value="$PROJECT_DIR$/channel/channel_uc" />
             <option value="$PROJECT_DIR$/platform" />
             <option value="$PROJECT_DIR$/platform/platform_android" />
             <option value="$PROJECT_DIR$/platform/platform_unity" />
