@@ -25,11 +25,15 @@ nosdk是用于实现一键打包的工具，用以解决国内android sdk平台�
 
 未解决的问题：
 
-*   androidmanifest.xml读取，合并，保存；
-*   androidmanifest.xml字段替换，添加字段；
+*   替换新的渠道包时，老包里没用的资源，代码和androidanifest.xml配置并没有删除；
+*   src和main有两份同样的jar资源；
+*   androidmanifest.xml目前还只是简单的合并，算不上merge,也没有处理冲突的功能。
+*   还没有签名的功能。
 *   gradle生成jar包没有包含依赖的代码（例如channel_demo本该包含sdktool）。
 
-## 合作
+## 进度：
+
+目前客户端已经可以实现基本的分包了，可以试试用src打一个demo包，然后用build.lua将demo替换为uc，看看新包里是否有uc的东西，新打出的包能不能跑还需要测试和调整下。
 
 项目规划：
 
@@ -52,9 +56,6 @@ nosdk是用于实现一键打包的工具，用以解决国内android sdk平台�
 以上能力有一个即可，若是纯粹想要打酱油并且有些想法的，也欢迎来找我聊聊。
 
 ## 相关文档
-
-* [我的博客][1]
-
 
 ## 联系方式
 
