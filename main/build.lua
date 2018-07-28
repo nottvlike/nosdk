@@ -1,7 +1,6 @@
 package.cpath = "./tool/?.so"
 
-local sdktool = require 'tool/sdktool'
-local xmltool = require 'tool/xmltool'
+local sdktool = require 'tool.sdktool'
 
 sdktool.rootPath = sdktool.currentDir() .. '/..'
 
@@ -13,7 +12,7 @@ function buildChannel(sourceApk, platformName, channelName, pluginTable, targetA
 
       sdktool.createTmpPath()
 
-      --sdktool.loadAndroidManifest()
+      sdktool.loadAndroidManifest()
 
       sdktool.addSDKTool()
       sdktool.addPlatform(platformName)
@@ -31,14 +30,14 @@ function buildChannel(sourceApk, platformName, channelName, pluginTable, targetA
       sdktool.compileJars()
       sdktool.mergeSmali()
 
-      --sdktool.saveAndroidManifest()
+      sdktool.saveAndroidManifest()
 
+      sdktool.testLogManifest()
       sdktool.buildApk(targetApk)
 end
 
 sdktool.help()
-buildChannel('demo.apk', 'android', 'demo', nil, 'demo_new.apk')
+buildChannel('demo.apk', 'android', 'uc', nil, 'demo_new.apk')
 
-for i,v in pairs(xmltool) do
-      print(i,v)
-end
+--sdktool.init()
+--sdktool.buildApk('demo_new.apk')
