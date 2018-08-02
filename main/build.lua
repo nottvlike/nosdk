@@ -4,7 +4,7 @@ local sdktool = require 'tool.sdktool'
 
 sdktool.rootPath = sdktool.currentDir() .. '/..'
 
-function buildChannel(sourceApk, platformName, channelName, pluginTable, targetApk)
+function buildDefault(sourceApk, platformName, channelName, pluginTable, targetApk)
       sdktool.init()
       sdktool.createOutputPath()
 
@@ -36,8 +36,45 @@ function buildChannel(sourceApk, platformName, channelName, pluginTable, targetA
       sdktool.buildApk(targetApk)
 end
 
-sdktool.help()
-buildChannel('demo.apk', 'android', 'uc', nil, 'demo_new.apk')
+function buildEclipse(source, platformName, channelName, pluginTable, outputName)
+      local eclipseParams = {
+            projectName = source,
+            sdkPath = "",
+            ndkPath = "",
+            antPath = ""
+      }
 
---sdktool.init()
---sdktool.buildApk('demo_new.apk')
+      if not sdktool.setEclipseParams(eclipseParams) then
+            print ("Could not find the eclipse project " .. source)
+            return
+      end
+
+      sdktool.loadAndroidManifest()
+
+      sdktool.addSDKTool()
+      sdktool.addPlatform(platformName)
+
+      if channelName ~= nil and channelName ~= '' then
+            sdktool.addChannel(channelName)
+      end
+
+      if pluginTable ~= nil then
+            for i,v in pairs(pluginTable) do
+                  sdktool.addPlugin(v)
+            end
+      end
+
+      sdktool.saveAndroidManifest()
+      sdktool.buildEclipse(outputName)
+end
+
+--sdktool.help()
+
+sdktool.setBuildType(sdkBuildType.default)
+--buildDefault('demo.apk', 'android', 'uc', nil, 'demo_new.apk')
+
+sdktool.setBuildType(sdkBuildType.eclipse)
+buildEclipse('demo', 'android', 'uc', nil, 'demo_new.apk')
+
+sdktool.setBuildType(sdkBuildType.gradle)
+--buildEclipse('demo', 'android', 'uc', nil, 'demo_new.apk')
