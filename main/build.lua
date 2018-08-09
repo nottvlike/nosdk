@@ -4,7 +4,7 @@ local sdktool = require 'tool.sdktool'
 
 sdktool.rootPath = sdktool.currentDir() .. '/..'
 
-function buildDefault(sourceApk, platformName, channelName, pluginTable, targetApk)
+function buildDefault(sourceApk, platformName, channelName, pluginTable, targetApk, signParams, signApk)
       sdktool.init()
       sdktool.createOutputPath()
 
@@ -34,6 +34,8 @@ function buildDefault(sourceApk, platformName, channelName, pluginTable, targetA
 
       sdktool.testLogManifest()
       sdktool.buildApk(targetApk)
+
+      sdktool.sign(signParams, targetApk, signApk)
 end
 
 function buildEclipse(source, platformName, channelName, pluginTable, outputName)
@@ -71,7 +73,11 @@ end
 --sdktool.help()
 
 sdktool.setBuildType(sdkBuildType.default)
---buildDefault('demo.apk', 'android', 'uc', nil, 'demo_new.apk')
+buildDefault('demo.apk', 'unity', 'uc', nil, 'demo_new.apk', {
+      keystore = './tool/nosdk.keystore',
+      alias = 'nosdk',
+      password = 'nosdk123' 
+}, 'demo_sign.apk')
 
 sdktool.setBuildType(sdkBuildType.eclipse)
 buildEclipse('demo', 'android', 'uc', nil, 'demo_new.apk')
