@@ -1,6 +1,7 @@
 package com.common.sdktool;
 
 import com.unity3d.player.UnityPlayer;
+import com.unity3d.player.UnityPlayerActivity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -10,19 +11,13 @@ import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.Window;
 
-public class MainActivity extends Activity {
-    protected UnityPlayer mUnityPlayer; // don't change the name of this variable; referenced from native code
+public class MainActivity extends UnityPlayerActivity {
 
     // Setup activity layout
     @Override protected void onCreate(Bundle savedInstanceState)
     {
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
 
-        mUnityPlayer = new UnityPlayer(this);
-        setContentView(mUnityPlayer);	
-        mUnityPlayer.requestFocus();
-        
         SDKManager.getInstance().onCreate(this);
     }
 
@@ -40,18 +35,16 @@ public class MainActivity extends Activity {
     // Quit Unity
     @Override protected void onDestroy ()
     {
-    	SDKManager.getInstance().onDestroy();
-    	
-        mUnityPlayer.quit();
         super.onDestroy();
+
+    	SDKManager.getInstance().onDestroy();
     }
 
     // Pause Unity
     @Override protected void onPause()
     {
         super.onPause();
-        mUnityPlayer.pause();
-        
+
         SDKManager.getInstance().onPause();
     }
 
@@ -59,57 +52,29 @@ public class MainActivity extends Activity {
     @Override protected void onResume()
     {
         super.onResume();
-        mUnityPlayer.resume();
-        
+
         SDKManager.getInstance().onResume();
     }
 
     @Override protected void onStart()
     {
         super.onStart();
-        mUnityPlayer.start();
-        
+
         SDKManager.getInstance().onStart();
     }
 
     @Override protected void onStop()
     {
         super.onStop();
-        mUnityPlayer.stop();
-        
+
         SDKManager.getInstance().onStop();
-    }
-
-    // Low Memory Unity
-    @Override public void onLowMemory()
-    {
-        super.onLowMemory();
-        mUnityPlayer.lowMemory();
-    }
-
-    // Trim Memory Unity
-    @Override public void onTrimMemory(int level)
-    {
-        super.onTrimMemory(level);
-        if (level == TRIM_MEMORY_RUNNING_CRITICAL)
-        {
-            mUnityPlayer.lowMemory();
-        }
-    }
-
-    // This ensures the layout will be correct.
-    @Override public void onConfigurationChanged(Configuration newConfig)
-    {
-        super.onConfigurationChanged(newConfig);
-        mUnityPlayer.configurationChanged(newConfig);
     }
 
     // Notify Unity of the focus change.
     @Override public void onWindowFocusChanged(boolean hasFocus)
     {
         super.onWindowFocusChanged(hasFocus);
-        mUnityPlayer.windowFocusChanged(hasFocus);
-        
+
         SDKManager.getInstance().onWindowFocusChanged(hasFocus);
     }
 
@@ -120,19 +85,4 @@ public class MainActivity extends Activity {
 		
 		SDKManager.getInstance().onActivityResult(requestCode, resultCode, data);
 	}
-	
-    // For some reason the multiple keyevent type is not supported by the ndk.
-    // Force event injection by overriding dispatchKeyEvent().
-    @Override public boolean dispatchKeyEvent(KeyEvent event)
-    {
-        if (event.getAction() == KeyEvent.ACTION_MULTIPLE)
-            return mUnityPlayer.injectEvent(event);
-        return super.dispatchKeyEvent(event);
-    }
-
-    // Pass any events not handled by (unfocused) views straight to UnityPlayer
-    @Override public boolean onKeyUp(int keyCode, KeyEvent event)     { return mUnityPlayer.injectEvent(event); }
-    @Override public boolean onKeyDown(int keyCode, KeyEvent event)   { return mUnityPlayer.injectEvent(event); }
-    @Override public boolean onTouchEvent(MotionEvent event)          { return mUnityPlayer.injectEvent(event); }
-    /*API12*/ public boolean onGenericMotionEvent(MotionEvent event)  { return mUnityPlayer.injectEvent(event); }
 }
