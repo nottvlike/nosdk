@@ -24,6 +24,10 @@ android {
 
 }
 
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}
+
 task makeJar(type: Jar) {
     delete 'build/libs/sdktool.jar'
     baseName 'sdktool'
@@ -34,19 +38,19 @@ task makeJar(type: Jar) {
     }
 }
 
+task makeDir {
+    mkdir '../../main/sdktool/jars'
+}
+
 task copyJar {
-    doLast {
+    doLast{
         copy {
             from 'build/libs/sdktool.jar'
             into "../../main/sdktool/jars"
         }
-
     }
 }
 
 makeJar.dependsOn build
-copyJar.dependsOn makeJar
-
-dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-}
+makeDir.dependsOn makeJar
+copyJar.dependsOn makeDir

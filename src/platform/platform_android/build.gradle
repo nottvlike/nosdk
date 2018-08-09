@@ -24,6 +24,13 @@ android {
 
 }
 
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    compileOnly project(':channel:channel_demo')
+    compileOnly project(':sdktool')
+}
+
 task makeJar(type: Jar) {
     delete 'build/libs/platform_android.jar'
     baseName 'platform_android'
@@ -34,22 +41,19 @@ task makeJar(type: Jar) {
     }
 }
 
+task makeDir {
+    mkdir '../../../main/platform/android/jars'
+}
+
 task copyJar {
     doLast {
         copy {
             from 'build/libs/platform_android.jar'
             into "../../../main/platform/android/jars"
         }
-
     }
 }
 
 makeJar.dependsOn build
-copyJar.dependsOn makeJar
-
-dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-
-    compileOnly project(':channel:channel_demo')
-    compileOnly project(':sdktool')
-}
+makeDir.dependsOn makeJar
+copyJar.dependsOn makeDir

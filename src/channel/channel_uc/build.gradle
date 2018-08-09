@@ -40,15 +40,26 @@ task makeJar(type: Jar) {
     }
 }
 
+task makeDir {
+    mkdir '../../../main/channel/uc/jars'
+    mkdir '../../../main/channel/uc/assets'
+}
+
 task copyJar {
+    copy {
+        from 'src/main/assets'
+        into "../../../main/channel/uc/assets"
+    }
+
     doLast {
         copy {
             from 'build/libs/channel_uc.jar'
+            from 'libs/'
             into "../../../main/channel/uc/jars"
         }
-
     }
 }
 
 makeJar.dependsOn build
-copyJar.dependsOn makeJar
+makeDir.dependsOn makeJar
+copyJar.dependsOn makeDir

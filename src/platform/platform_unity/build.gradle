@@ -33,18 +33,22 @@ task makeJar(type: Jar) {
     }
 }
 
+task makeDir {
+    mkdir '../../../main/platform/unity/jars'
+}
+
 task copyJar {
     doLast {
         copy {
             from 'build/libs/platform_unity.jar'
             into "../../../main/platform/unity/jars"
         }
-
     }
 }
 
 makeJar.dependsOn build
-copyJar.dependsOn makeJar
+makeDir.dependsOn makeJar
+copyJar.dependsOn makeDir
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
