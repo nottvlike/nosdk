@@ -19,17 +19,17 @@ nosdk是用于实现一键打包的工具，用以解决国内android sdk平台�
 
 具体可以看下main/build.lua文件，apk处理的功能都是通过sdktool.lua脚本实现的，用到的工具都在main/bin里，有兴趣的可以看看查查！
 
+添加了windows版本的支持，可以使用main/tool/lua.exe执行下build.lua脚本，如果lua.exe执行有问题的，可以从这里[下载](https://pan.baidu.com/s/110ISU1POP4h-HK3NBiRv7w)我编译lua和其它dll的vs2015工程，自己打一个试试。
+
 依赖的工具：
 
 * lua 5.3
 
 未解决的问题：
 
-*   替换新的渠道包时，老包里没用的资源，代码和androidanifest.xml配置并没有删除；
-*   src和main有两份同样的jar资源；
+*   windows命令行与mac不同，需要适配windows命令行；
+*   替换新的渠道包时，老包里没用的资源，代码和androidanifest.xml配置并没有删除；
 *   androidmanifest.xml目前还只是简单的合并，算不上merge,也没有处理冲突的功能。
-*   包名被替换了，我还没想好怎么实现类似的功能，目前看虽然正确也算是bug，应该还有其它的配置也被替换了有隐忧；
-*   还没有签名的功能。
 *   gradle生成jar包没有包含依赖的代码（例如channel_demo本该包含sdktool）。
 
 ## 进度：
@@ -63,5 +63,3 @@ nosdk是用于实现一键打包的工具，用以解决国内android sdk平台�
 * email: nottvlike@gmail.com
 * 微信：nottvlike
 * QQ: 1497097437
-
-[1]: http://www.cnblogs.com/nottvlike/p/4594179.html "my bolg"

@@ -1,4 +1,5 @@
-package.cpath = "./tool/?.so"
+package.cpath = "./tool/mac/?.so"
+package.cpath = "./tool/windows/?.dll"
 
 local sdktool = require 'tool.sdktool'
 
