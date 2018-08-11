@@ -27,14 +27,14 @@ nosdk是用于实现一键打包的工具，用以解决国内android sdk平台�
 
 未解决的问题：
 
-*   windows命令行与mac不同，需要适配windows命令行；
+*	同一个apk，window重新打出的uc包可以初始化，mac打出的包初始化失败；
 *   替换新的渠道包时，老包里没用的资源，代码和androidanifest.xml配置并没有删除；
 *   androidmanifest.xml目前还只是简单的合并，算不上merge,也没有处理冲突的功能。
 *   gradle生成jar包没有包含依赖的代码（例如channel_demo本该包含sdktool）。
 
 ## 进度：
 
-目前客户端已经可以实现基本的分包了，可以试试用src打一个demo包，然后用build.lua将demo替换为uc，看看新包里是否有uc的东西，新打出的包能不能跑还需要测试和调整下。
+目前客户端已经可以实现基本的分包了，可以试试用src打一个demo包，然后用build.lua将demo替换为uc，看看新包里是否有uc的东西，新打出的包测试了一下运行没问题，window上能弹出uc的初始化和登录界面。
 
 项目规划：
 
