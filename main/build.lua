@@ -1,14 +1,27 @@
-package.cpath = "./tool/mac/?.so"
-package.cpath = "./tool/windows/?.dll"
+
+SystemType = {
+      mac = 1,
+      windows = 2
+}
+
+local function setSystemType(systemType)
+      if systemType == SystemType.mac then
+            package.cpath = "./tool/mac/?.so"
+      elseif systemType == SystemType.windows then
+            package.cpath = "./tool/windows/?.dll"
+      end
+end
+
+local systemType = SystemType.windows
+setSystemType(systemType)
 
 local sdktool = require 'tool.sdktool'
+sdktool.mainPath = sdktool.currentDir()
 
-sdktool.rootPath = sdktool.currentDir() .. '/..'
+local function buildDefault(sourceApk, platformName, channelName, pluginTable, targetApk, signParams, signApk)
+      sdktool.init(systemType, 'test')
 
-function buildDefault(sourceApk, platformName, channelName, pluginTable, targetApk, signParams, signApk)
-      sdktool.init()
       sdktool.createOutputPath()
-
       sdktool.decodeApk(sourceApk)
 
       sdktool.createTmpPath()
@@ -74,7 +87,7 @@ end
 --sdktool.help()
 
 sdktool.setBuildType(sdkBuildType.default)
-buildDefault('demo.apk', 'unity', 'uc', nil, 'demo_new.apk', {
+buildDefault('demo.apk', 'android', 'uc', nil, 'demo_new.apk', {
       keystore = './tool/nosdk.keystore',
       alias = 'nosdk',
       password = 'nosdk123' 
