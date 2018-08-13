@@ -1,25 +1,13 @@
-
-SystemType = {
-      mac = 1,
-      windows = 2
-}
-
-local function setSystemType(systemType)
-      if systemType == SystemType.mac then
-            package.cpath = "./tool/mac/?.so"
-      elseif systemType == SystemType.windows then
-            package.cpath = "./tool/windows/?.dll"
-      end
-end
-
-local systemType = SystemType.windows
-setSystemType(systemType)
-
 local sdktool = require 'tool.sdktool'
 sdktool.mainPath = sdktool.currentDir()
 
 local function buildDefault(sourceApk, platformName, channelName, pluginTable, targetApk, signParams, signApk)
-      sdktool.init(systemType, 'test')
+      
+      sdktool.outputPathName = "output"         -- 输出目录名
+      sdktool.outputProjectPathName = "demo"    -- 输出目录里工程目录名
+      sdktool.outputTmpPathName = "tmp"         -- 输出目录里的临时目录
+
+      sdktool.init()
 
       sdktool.createOutputPath()
       sdktool.decodeApk(sourceApk)
