@@ -34,7 +34,6 @@ local function buildDefault(sourceApk, platformName, channelName, pluginTable, t
 
       sdktool.saveAndroidManifest()
 
-      sdktool.testLogManifest()
       sdktool.buildApk(targetApk)
 
       sdktool.sign(signParams, targetApk, signApk)

@@ -7,8 +7,9 @@ local system = {}
 
 function system.getSystemType()
 	local result = ''
-	local handle = io.popen('uname -s')
-	if handle ~= nil then
+	local cmd = 'uname -s'
+	if system.execute(cmd .. ' >> sdktool.log 2>&1') then
+		local handle = io.popen(cmd)
 		result = handle:read('*a')
 		handle:close()
 	else
@@ -22,6 +23,19 @@ function system.getSystemType()
 	else
 		return SystemType.mac
 	end
+end
+
+function system.log(info)
+	print(info)
+end
+
+function system.execute(cmd)
+	if not os.execute(cmd .. ' >> sdktool.log 2>&1') then
+		print("error: execute " .. cmd .. " failed!")
+		return false
+	end
+	
+	return true
 end
 
 return system
