@@ -3,21 +3,20 @@ package com.common.sdktool;
 import com.unity3d.player.UnityPlayer;
 import com.unity3d.player.UnityPlayerActivity;
 
-import android.app.Activity;
 import android.content.Intent;
-import android.content.res.Configuration;
 import android.os.Bundle;
-import android.view.KeyEvent;
-import android.view.MotionEvent;
-import android.view.Window;
 
-public class MainActivity extends UnityPlayerActivity {
+public class MainActivity extends UnityPlayerActivity implements ISDKCallback {
+
+    final String UNITY_OBJECT = "SDKManager";
+    final char SEPARATE_CHAR = '#';
 
     // Setup activity layout
     @Override protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
 
+        SDKManager.getInstance().setSDKCallback(this);
         SDKManager.getInstance().onCreate(this);
     }
 
@@ -85,4 +84,102 @@ public class MainActivity extends UnityPlayerActivity {
 		
 		SDKManager.getInstance().onActivityResult(requestCode, resultCode, data);
 	}
+
+    @Override
+    public void onInitSuccess() {
+
+    }
+
+    @Override
+    public void onInitFailed() {
+
+    }
+
+    @Override
+    public void onLoginSuccess() {
+        LoginInfo info  = SDKManager.getInstance().getLoginInfo();
+        StringBuilder strBuilder = new StringBuilder();
+        String loginResult = strBuilder.append(info.userName).append(SEPARATE_CHAR)
+                .append(info.userId).append(SEPARATE_CHAR)
+                .append(info.token).append(SEPARATE_CHAR)
+                .append(info.channelLabel).append(SEPARATE_CHAR)
+                .append(info.channelName).append(SEPARATE_CHAR)
+                .append(info.custom1).append(SEPARATE_CHAR)
+                .append(info.custom2).append(SEPARATE_CHAR)
+                .append(info.custom3).append(SEPARATE_CHAR).toString();
+
+        UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnLoginSuccess", loginResult);
+    }
+
+    @Override
+    public void onLoginFailed() {
+        UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnLoginFailed", "");
+    }
+
+    @Override
+    public void onLoginCanceled() {
+
+    }
+
+    @Override
+    public void onSwitchAccountSuccess() {
+
+    }
+
+    @Override
+    public void onSwitchAccountFailed() {
+
+    }
+
+    @Override
+    public void onSwitchAccountCanceled() {
+
+    }
+
+    @Override
+    public void onLogoutSuccess() {
+        UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnLogout", "");
+    }
+
+    @Override
+    public void onLogoutFailed() {
+
+    }
+
+    @Override
+    public void onPaySuccess() {
+        PayInfo info  = SDKManager.getInstance().getPayInfo();
+        StringBuilder strBuilder = new StringBuilder();
+        String payResult = strBuilder.append(info.amount).append(SEPARATE_CHAR)
+                .append(info.productId).append(SEPARATE_CHAR)
+                .append(info.orderId).append(SEPARATE_CHAR)
+                .append(info.currency).append(SEPARATE_CHAR).toString();
+
+        UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnPaySuccess", payResult);
+    }
+
+    @Override
+    public void onPayFailed() {
+        UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnPayFailed", "");
+    }
+
+    @Override
+    public void onPayCanceled() {
+
+    }
+
+    @Override
+    public void onExitSuccess() {
+        UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnExit", "");
+    }
+
+    @Override
+    public void onExitCancel() {
+
+    }
+
+    @Override
+    public void onExitFailed() {
+
+    }
 }

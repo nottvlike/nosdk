@@ -45,6 +45,11 @@ task makeDir {
 }
 
 task copyJar {
+    copy {
+        from 'src/main/res'
+        into "../../../main/channel/demo/res"
+    }
+
     doLast {
         copy {
             from 'build/libs/channel_demo.jar'

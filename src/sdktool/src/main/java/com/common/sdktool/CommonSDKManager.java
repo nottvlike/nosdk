@@ -14,12 +14,7 @@ public class CommonSDKManager {
     PlayerInfo _playerInfo = new PlayerInfo();
     PayInfo _payInfo = new PayInfo();
 
-    IInitListener _initListener;
-    ILoginListener _loginListener;
-    ILogoutListener _logoutListener;
-    ISwitchAccountListener _switchAccountListener;
-    IExitListener _exitListener;
-    IPayListener _payListener;
+    ISDKCallback _sdkCallback;
 
     public final LoginInfo getLoginInfo() {
         return _loginInfo;
@@ -33,42 +28,24 @@ public class CommonSDKManager {
         return _payInfo;
     }
 
-    public ILoginListener getLoginListener() {
-        return _loginListener;
+    public ISDKCallback getSDKListener() {
+        return _sdkCallback;
+    }
+    public void setSDKCallback(ISDKCallback sdkListener) {
+        _sdkCallback = sdkListener;
     }
 
-    public ISwitchAccountListener getSwitchAccountListener() {
-        return _switchAccountListener;
-    }
+    public void init(String custom) { }
 
-    public IExitListener getExitListener() {
-        return _exitListener;
-    }
+    public void login(String custom) { }
 
-    public IPayListener getPayListener() {
-        return _payListener;
-    }
+    public void switchAccount(String custom) { }
 
-    public void init(String custom, IInitListener listener) {
-        _initListener = listener;
-    }
-
-    public void login(String custom, ILoginListener listener) {
-        _loginListener = listener;
-    }
-
-    public void switchAccount(String custom,
-                              ISwitchAccountListener listener) {
-        _switchAccountListener = listener;
-    }
-
-    public void logout(String custom, ILogoutListener listener) {
-        _logoutListener = listener;
-    }
+    public void logout(String custom) { }
 
     public void pay(int amount, String currency,
                     String productId, String productName, String productDescription,
-                    String orderId, String extraData, String CallbackUrl, IPayListener listener) {
+                    String orderId, String extraData, String CallbackUrl) {
         _payInfo.amount = amount;
         _payInfo.currency = currency;
         _payInfo.productId = productId;
@@ -77,8 +54,6 @@ public class CommonSDKManager {
         _payInfo.orderId = orderId;
         _payInfo.extra = extraData;
         _payInfo.callbackUrl = CallbackUrl;
-
-        _payListener = listener;
 
         payImpl();
     }
@@ -112,9 +87,7 @@ public class CommonSDKManager {
     public void callCustomMethod(int methodType, String param) {
     }
 
-    public void exit(IExitListener exitListener) {
-        _exitListener = exitListener;
-    }
+    public void exit() { }
 
     // MainActivity callback begin
 

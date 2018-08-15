@@ -1,6 +1,7 @@
 package com.sdk.demo;
 
 import android.app.Activity;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -26,22 +27,24 @@ public class DemoPayActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.demo_pay);
+
+        Resources res = getResources();
+        setContentView(res.getIdentifier("demo_pay", "layout", getPackageName()));
 
         PayInfo payInfo = SDKManager.getInstance().getPayInfo();
 
-        TextView productName = (TextView) findViewById(R.id.payTitle);
+        TextView productName = (TextView) findViewById(res.getIdentifier("payTitle", "id", getPackageName()));
         productName.setText(payInfo.productName);
 
-        TextView amount = (TextView) findViewById(R.id.payAmount);
+        TextView amount = (TextView) findViewById(res.getIdentifier("payAmount", "id", getPackageName()));
         amount.setText(String.valueOf(payInfo.amount));
 
-        TextView description = (TextView) findViewById(R.id.payDescription);
+        TextView description = (TextView) findViewById(res.getIdentifier("payDescription", "id", getPackageName()));
         description.setText(String.valueOf(payInfo.productDescription));
 
         final Activity tmpActivity = this;
 
-        Button buyBtn = (Button) findViewById(R.id.payGoPay);
+        Button buyBtn = (Button) findViewById(res.getIdentifier("payGoPay", "id", getPackageName()));
         buyBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -79,12 +82,12 @@ public class DemoPayActivity extends Activity {
                                     if (payResult.compareTo("0") == 0) {
                                         Log.d(SDKManager.getInstance().TAG, "Pay success!");
 
-                                        SDKManager.getInstance().getPayListener().OnPaySuccess();
+                                        SDKManager.getInstance().getSDKListener().onPaySuccess();
                                     }
                                     else {
                                         Log.d(SDKManager.getInstance().TAG, String.format("Pay failed: ", payMessage));
 
-                                        SDKManager.getInstance().getPayListener().OnPayFailed();
+                                        SDKManager.getInstance().getSDKListener().onPayFailed();
                                     }
 
                                     finish();
@@ -102,11 +105,11 @@ public class DemoPayActivity extends Activity {
             }
         });
 
-        Button cancelBtn = (Button) findViewById(R.id.payGoCancelPay);
+        Button cancelBtn = (Button) findViewById(res.getIdentifier("payGoCancelPay", "id", getPackageName()));
         cancelBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                SDKManager.getInstance().getPayListener().OnPayCanceled();
+                SDKManager.getInstance().getSDKListener().onPayCanceled();
                 finish();
             }
         });

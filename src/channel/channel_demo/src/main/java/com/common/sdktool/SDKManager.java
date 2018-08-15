@@ -11,7 +11,7 @@ import android.content.Intent;
 public class SDKManager extends CommonSDKManager {
     static SDKManager _instance = null;
 
-    boolean _sdkHasExit = false;
+    boolean _sdkHasExit = true;
     boolean _isLogined = false;
 
     public SDKManager() {
@@ -34,13 +34,13 @@ public class SDKManager extends CommonSDKManager {
         return _instance;
     }
 
-    public void setSDKHasExit(boolean hasExit) {
-        _sdkHasExit = hasExit;
+    public boolean getSDKHasExit() {
+        return true;
     }
 
     @Override
-    public void login(String param, ILoginListener loginListener) {
-        super.login(param, loginListener);
+    public void login(String param) {
+        super.login(param);
 
         _activity.runOnUiThread(new Runnable() {
             @Override
@@ -52,9 +52,9 @@ public class SDKManager extends CommonSDKManager {
     }
 
     @Override
-    public void switchAccount(String param, ISwitchAccountListener switchAccountListener)
+    public void switchAccount(String param)
     {
-        super.switchAccount(param, switchAccountListener);
+        super.switchAccount(param);
 
         _activity.runOnUiThread(new Runnable() {
             @Override
@@ -66,10 +66,10 @@ public class SDKManager extends CommonSDKManager {
     }
 
     @Override
-    public void logout(String param, ILogoutListener logoutListener) {
-        super.logout(param, logoutListener);
+    public void logout(String param) {
+        super.logout(param);
 
-        _logoutListener.OnLogoutSuccess();
+        _sdkCallback.onLogoutSuccess();
     }
     @Override
     protected void payImpl() {
@@ -83,8 +83,8 @@ public class SDKManager extends CommonSDKManager {
     }
 
     @Override
-    public void exit(final IExitListener exitListener) {
-        super.exit(exitListener);
+    public void exit() {
+        super.exit();
 
         if (_sdkHasExit) {
             _activity.runOnUiThread(new Runnable() {
@@ -96,22 +96,27 @@ public class SDKManager extends CommonSDKManager {
             });
         }
         else {
-            new AlertDialog.Builder(_activity)
-                    .setTitle("Warning")
-                    .setMessage("Are you sure to exit!")
-                    .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                            exitListener.OnExitCancel();
-                        }
-                    })
-                    .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                            exitListener.OnExitSuccess();
-                        }
-                    })
-                    .create().show();
+            _activity.runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                    new AlertDialog.Builder(_activity)
+                            .setTitle("Warning")
+                            .setMessage("Are you sure to exit!")
+                            .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    _sdkCallback.onExitCancel();
+                                }
+                            })
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    _sdkCallback.onExitSuccess();
+                                }
+                            })
+                            .create().show();
+                }
+            });
         }
     }
 }

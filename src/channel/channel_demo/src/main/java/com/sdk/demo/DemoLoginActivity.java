@@ -1,6 +1,7 @@
 package com.sdk.demo;
 
 import android.app.Activity;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -26,17 +27,19 @@ public class DemoLoginActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.demo_login);
 
-        final TextView accountTextView = (TextView) findViewById(R.id.loginAccount);
-        final TextView passwordTextView = (TextView) findViewById(R.id.loginPassword);
-        final TextView descriptionTextView = (TextView) findViewById(R.id.loginDescription);
-        final TextView titleTextView = (TextView) findViewById(R.id.loginTitle);
+        Resources res = getResources();
+        setContentView(res.getIdentifier("demo_login", "layout", getPackageName()));
+
+        final TextView accountTextView = (TextView) findViewById(res.getIdentifier("loginAccount", "id", getPackageName()));
+        final TextView passwordTextView = (TextView) findViewById(res.getIdentifier("loginPassword", "id", getPackageName()));
+        final TextView descriptionTextView = (TextView) findViewById(res.getIdentifier("loginDescription", "id", getPackageName()));
+        final TextView titleTextView = (TextView) findViewById(res.getIdentifier("loginTitle", "id", getPackageName()));
         titleTextView.setText("DemoLogin");
 
         final Activity tmpActivity = this;
 
-        Button goLoginBtn = (Button) findViewById(R.id.loginGo);
+        Button goLoginBtn = (Button) findViewById(res.getIdentifier("loginGo", "id", getPackageName()));
         goLoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -87,12 +90,13 @@ public class DemoLoginActivity extends Activity {
                                     @Override
                                     public void run() {
                                         if (loginResult.compareTo("0") == 0) {
-                                            SDKManager.getInstance().getLoginListener().OnLoginSuccess();
+                                            SDKManager.getInstance().getSDKListener().onLoginSuccess();
                                             Log.d(SDKManager.getInstance().TAG, "Login success!");
 
                                             finish();
                                         }
                                         else {
+                                            SDKManager.getInstance().getSDKListener().onLogoutFailed();
                                             String loginFailedMessage = String.format("Login failed: %s", loginMessage);
                                             Log.d(SDKManager.getInstance().TAG, loginFailedMessage);
                                             descriptionTextView.setText(loginFailedMessage);
@@ -115,7 +119,7 @@ public class DemoLoginActivity extends Activity {
             }
         });
 
-        Button cancelBtn = (Button) findViewById(R.id.loginCancel);
+        Button cancelBtn = (Button) findViewById(res.getIdentifier("loginCancel", "id", getPackageName()));
         cancelBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

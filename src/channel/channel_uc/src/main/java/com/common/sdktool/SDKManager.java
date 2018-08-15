@@ -1,8 +1,6 @@
 package com.common.sdktool;
 
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.text.TextUtils;
 import android.util.Log;
@@ -44,13 +42,14 @@ public class SDKManager extends CommonSDKManager {
         @Subscribe(event = SDKEventKey.ON_LOGIN_SUCC)
         private void onLoginSucc(String sid) {
             Toast.makeText(_activity, "login succ,sid=" + sid, Toast.LENGTH_SHORT).show();
-
+            _sdkCallback.onLoginSuccess();
         }
 
         @Subscribe(event = SDKEventKey.ON_LOGIN_FAILED)
         private void onLoginFailed(String desc) {
             Toast.makeText(_activity,desc, Toast.LENGTH_SHORT).show();
 //            printMsg(desc);
+            _sdkCallback.onLoginFailed();
         }
 
         @Subscribe(event = SDKEventKey.ON_CREATE_ORDER_SUCC)
@@ -75,13 +74,13 @@ public class SDKManager extends CommonSDKManager {
         @Subscribe(event = SDKEventKey.ON_LOGOUT_SUCC)
         private void onLogoutSucc() {
             Toast.makeText(_activity, "logout succ", Toast.LENGTH_SHORT).show();
-            _logoutListener.OnLogoutSuccess();
+            _sdkCallback.onLogoutSuccess();
         }
 
         @Subscribe(event = SDKEventKey.ON_LOGOUT_FAILED)
         private void onLogoutFailed() {
             Toast.makeText(_activity, "logout failed", Toast.LENGTH_SHORT).show();
-            _logoutListener.OnLogoutFailed();
+            _sdkCallback.onLogoutFailed();
 //            printMsg("注销失败");
         }
 
@@ -89,14 +88,18 @@ public class SDKManager extends CommonSDKManager {
         private void onExit(String desc) {
             Toast.makeText(_activity, desc, Toast.LENGTH_SHORT).show();
             //           printMsg(desc);
+            _sdkCallback.onExitSuccess();
         }
 
         @Subscribe(event = SDKEventKey.ON_EXIT_CANCELED)
         private void onExitCanceled(String desc) {
             Toast.makeText(_activity, desc, Toast.LENGTH_SHORT).show();
+
+            _sdkCallback.onExitCancel();
         }
     };
 
+    String _pullUpInfo = "";
     public SDKManager() {
         _channelName = "demo";
     }
@@ -109,6 +112,10 @@ public class SDKManager extends CommonSDKManager {
         _isLogined = isLogined;
     }
 
+    public boolean getSDKHasExit() {
+        return true;
+    }
+
     public static SDKManager getInstance() {
         if (_instance == null) {
             _instance = new SDKManager();
@@ -118,8 +125,31 @@ public class SDKManager extends CommonSDKManager {
     }
 
     @Override
-    public void login(String param, ILoginListener loginListener) {
-        super.login(param, loginListener);
+    public void init(String param) {
+        GameParamInfo gameParamInfo = new GameParamInfo();
+        //gameParamInfo.setCpId(UCSdkConfig.cpId);已废用
+        gameParamInfo.setGameId(UCSdkConfig.gameId);
+        //gameParamInfo.setServerId(UCSdkConfig.serverId);已废用
+        gameParamInfo.setOrientation(UCOrientation.PORTRAIT);
+
+        SDKParams sdkParams = new SDKParams();
+
+        sdkParams.put(SDKParamKey.GAME_PARAMS, gameParamInfo);
+        sdkParams.put(SDKParamKey.PULLUP_INFO, _pullUpInfo);
+
+        //联调环境已经废用
+        //  sdkParams.put(SDKParamKey.DEBUG_MODE, UCSdkConfig.debugMode);
+        try {
+            UCGameSdk.defaultSdk().initSdk(_activity, sdkParams);
+
+        } catch (AliLackActivityException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void login(String param) {
+        super.login(param);
         try {
             UCGameSdk.defaultSdk().login(_activity, null);
         } catch (AliLackActivityException e) {
@@ -130,9 +160,9 @@ public class SDKManager extends CommonSDKManager {
     }
 
     @Override
-    public void switchAccount(String param, ISwitchAccountListener switchAccountListener)
+    public void switchAccount(String param)
     {
-        super.switchAccount(param, switchAccountListener);
+        super.switchAccount(param);
 
         _activity.runOnUiThread(new Runnable() {
             @Override
@@ -142,8 +172,8 @@ public class SDKManager extends CommonSDKManager {
     }
 
     @Override
-    public void logout(String param, ILogoutListener logoutListener) {
-        super.logout(param, logoutListener);
+    public void logout(String param) {
+        super.logout(param);
 
         try {
             UCGameSdk.defaultSdk().logout(_activity, null);
@@ -181,8 +211,8 @@ public class SDKManager extends CommonSDKManager {
     }
 
     @Override
-    public void exit(final IExitListener exitListener) {
-        super.exit(exitListener);
+    public void exit() {
+        super.exit();
 
         try {
             UCGameSdk.defaultSdk().exit(_activity, null);
@@ -220,30 +250,10 @@ public class SDKManager extends CommonSDKManager {
     public void onCreate(Activity activity) {
         super.onCreate(activity);
 
-        GameParamInfo gameParamInfo = new GameParamInfo();
-        //gameParamInfo.setCpId(UCSdkConfig.cpId);已废用
-        gameParamInfo.setGameId(UCSdkConfig.gameId);
-        //gameParamInfo.setServerId(UCSdkConfig.serverId);已废用
-        gameParamInfo.setOrientation(UCOrientation.PORTRAIT);
-
-        SDKParams sdkParams = new SDKParams();
-
         Intent intent = activity.getIntent();
-        String pullUpInfo = intent.getDataString();
-        if (TextUtils.isEmpty(pullUpInfo)) {
-            pullUpInfo = intent.getStringExtra("data");
-        }
-
-        sdkParams.put(SDKParamKey.GAME_PARAMS, gameParamInfo);
-        sdkParams.put(SDKParamKey.PULLUP_INFO, pullUpInfo);
-
-        //联调环境已经废用
-        //  sdkParams.put(SDKParamKey.DEBUG_MODE, UCSdkConfig.debugMode);
-        try {
-            UCGameSdk.defaultSdk().initSdk(activity, sdkParams);
-
-        } catch (AliLackActivityException e) {
-            e.printStackTrace();
+        _pullUpInfo = intent.getDataString();
+        if (TextUtils.isEmpty(_pullUpInfo)) {
+            _pullUpInfo = intent.getStringExtra("data");
         }
 
         UCGameSdk.defaultSdk().registerSDKEventReceiver(receiver);
