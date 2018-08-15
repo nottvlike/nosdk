@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sdk.demo">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true">
+        <activity android:name="com.sdk.demo.DemoLoginActivity">
+        </activity>
+        <activity android:name="com.sdk.demo.DemoPayActivity">
+        </activity>
+        <activity android:name="com.sdk.demo.DemoExitActivity">
+        </activity>
+    </application>
+
+</manifest>
