@@ -42,6 +42,11 @@ nosdk是用于实现一键打包的工具，用以解决国内android sdk平台�
 *   androidmanifest.xml目前还只是简单的合并，算不上merge,也没有处理冲突的功能。
 *   gradle生成jar包没有包含依赖的代码（例如channel_demo本该包含sdktool）。
 
+## Demo
+
+*	[Unity](https://pan.baidu.com/s/1CAD8cl48_KnTiIvi-9_N2g) : nosdk的unity demo，由于Assets/Plugins/Android只存放了AndroidManifest.xml文件，jar包没拷贝进来，所以使用unity打出的apk包无法运行，需要用nosdk添加demo或者uc channel后，才能够运行。当然你也可以事先将nosdk里demo或者uc channel的资源预先拷贝到Assets/Plugins/Android里，需要注意的是nosdk里的jars目录和luconfig目录是我自己定义的特殊目录，jars目录的jar包你可以放在Assets/Plugins/Android目录里，也可以放在Assets/Plugins/Android/libs目录里，至于luaconfig可以忽略。
+*	cocos2d-x : 暂时没有
+
 ## 进度：
 
 项目规划：
