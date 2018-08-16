@@ -25,6 +25,7 @@ public class DemoMainActivity extends MainActivity {
     TextView _goldCountTextView;
     TextView _userNameTextVIew;
 
+    Button _initBtn;
     Button _loginBtn;
     Button _payBtn;
     Button _logoutBtn;
@@ -38,6 +39,14 @@ public class DemoMainActivity extends MainActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.demo_main);
+
+        _initBtn = (Button) findViewById(R.id.mainInit);
+        _initBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                SDKManager.getInstance().init("");
+            }
+        });
 
         _loginBtn = (Button) findViewById(R.id.mainLogin);
         _loginBtn.setOnClickListener(new View.OnClickListener() {
@@ -85,15 +94,6 @@ public class DemoMainActivity extends MainActivity {
             @Override
             public void onClick(View view) {
                 SDKManager.getInstance().callCustomMethod(CustomMethodType.ShowCenter.value(), "");
-            }
-        });
-
-        Switch hasExitSwitch = (Switch) findViewById(R.id.mainHasExit);
-        _sdkHasExit = hasExitSwitch.isChecked();
-        hasExitSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                _sdkHasExit = b;
             }
         });
 

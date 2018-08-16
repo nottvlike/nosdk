@@ -14,6 +14,20 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/mainInit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="Init" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
             android:id="@+id/mainLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -80,13 +94,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.6"
             android:text="Exit" />
-
-        <Switch
-            android:id="@+id/mainHasExit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.4"
-            android:text="SDKHasExit" />
     </LinearLayout>
 
     <LinearLayout
