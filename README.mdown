@@ -44,8 +44,8 @@ nosdk是用于实现一键打包的工具，用以解决国内android sdk平台�
 
 ## Demo
 
-*	[Unity](https://pan.baidu.com/s/1CAD8cl48_KnTiIvi-9_N2g) : nosdk的unity demo，由于Assets/Plugins/Android只存放了AndroidManifest.xml文件，jar包没拷贝进来，所以使用unity打出的apk包无法运行，需要用nosdk添加demo或者uc channel后，才能够运行。当然你也可以事先将nosdk里demo或者uc channel的资源预先拷贝到Assets/Plugins/Android里，需要注意的是nosdk里的jars目录和luconfig目录是我自己定义的特殊目录，jars目录的jar包你可以放在Assets/Plugins/Android目录里，也可以放在Assets/Plugins/Android/libs目录里，至于luaconfig可以忽略。
-*	cocos2d-x : 暂时没有
+*	[Unity](https://github.com/nottvlike/NoSDKUnityDemo.git) : nosdk的unity demo；
+*	[cocos2d-x](https://github.com/nottvlike/NoSDKCocos2dxV3Demo.git) : 根据cocos2d-x-3.17的test示例更改的demo。
 
 ## 进度：
 
@@ -76,3 +76,4 @@ nosdk是用于实现一键打包的工具，用以解决国内android sdk平台�
 * email: nottvlike@gmail.com
 * 微信：nottvlike
 * QQ: 1497097437
+
