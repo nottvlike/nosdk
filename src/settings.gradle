@@ -1,1 +1,1 @@
-include ':app', ':platform:platform_android', ':platform:platform_unity', ':sdktool', ':channel:channel_demo', ':channel:channel_uc'
+include ':app', ':platform:platform_android', ':platform:platform_unity', ':platform:platform_cocos2dx', ':sdktool', ':channel:channel_demo', ':channel:channel_uc'
