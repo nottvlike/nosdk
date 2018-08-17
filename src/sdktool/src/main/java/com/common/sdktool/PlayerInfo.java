@@ -1,8 +1,8 @@
 package com.common.sdktool;
 
 public class PlayerInfo {
-    public TrackEventType dataType;
-    public long playerId;
+    public String accountId;
+    public String playerId;
     public String playerName;
     public int serverId;
     public String serverName;

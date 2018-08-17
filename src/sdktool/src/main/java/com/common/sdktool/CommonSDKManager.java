@@ -62,9 +62,10 @@ public class CommonSDKManager {
 
     }
 
-    public void updatePlayerInfo(long playerId, String playerName, int serverId,
+    public void updatePlayerInfo(String accountId, String playerId, String playerName, int serverId,
                                  String serverName, int playerLevel, int vipLevel, int gold,
                                  int coin, String gangId, String gangName) {
+        _playerInfo.accountId = accountId;
         _playerInfo.playerId = playerId;
         _playerInfo.playerName = playerName;
         _playerInfo.playerLevel = playerLevel;
