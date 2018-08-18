@@ -21,5 +21,5 @@ public interface ISDKCallback {
 
     void onExitSuccess(boolean sdkHasExit);
     void onExitFailed(String message);
-    void onExitCancel();
+    void onExitCanceled();
 }

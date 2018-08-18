@@ -3,7 +3,6 @@ package com.common.sdktool;
 import android.app.Activity;
 import android.content.Intent;
 import android.text.TextUtils;
-import android.util.Log;
 import android.widget.Toast;
 
 import java.util.HashMap;
@@ -82,7 +81,7 @@ public class SDKManager extends CommonSDKManager {
 
         @Subscribe(event = SDKEventKey.ON_EXIT_CANCELED)
         private void onExitCanceled(String desc) {
-            _sdkCallback.onExitCancel();
+            _sdkCallback.onExitCanceled();
         }
     };
 

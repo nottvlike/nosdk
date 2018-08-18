@@ -9,8 +9,6 @@ import android.widget.TextView;
 
 import com.common.sdktool.SDKManager;
 
-import nottvlike.channel_default.R;
-
 public class DemoExitActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +37,7 @@ public class DemoExitActivity extends Activity {
             @Override
             public void onClick(View view) {
                 finish();
-                SDKManager.getInstance().getSDKListener().onExitCancel();
+                SDKManager.getInstance().getSDKListener().onExitCanceled();
             }
         });
     }

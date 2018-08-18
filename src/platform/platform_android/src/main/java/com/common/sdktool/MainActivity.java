@@ -149,7 +149,7 @@ public class MainActivity extends Activity implements ISDKCallback {
     }
 
     @Override
-    public void onExitCancel() {
+    public void onExitCanceled() {
 
     }
 

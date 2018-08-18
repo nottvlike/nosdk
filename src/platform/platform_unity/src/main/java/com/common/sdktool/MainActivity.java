@@ -138,7 +138,7 @@ public class MainActivity extends UnityPlayerActivity implements ISDKCallback {
 
     @Override
     public void onLogoutSuccess() {
-        UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnLogout", "");
+        UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnLogoutSuccess", "");
     }
 
     @Override
@@ -171,12 +171,12 @@ public class MainActivity extends UnityPlayerActivity implements ISDKCallback {
     @Override
     public void onExitSuccess(boolean sdkHasExit) {
         int result = sdkHasExit ? 1 : 0;
-        UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnExit", String.valueOf(result));
+        UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnExitSuccess", String.valueOf(result));
     }
 
     @Override
-    public void onExitCancel() {
-        UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnExitCancel", "");
+    public void onExitCanceled() {
+        UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnExitCanceled", "");
     }
 
     @Override

@@ -176,7 +176,7 @@ public class MainActivity extends Cocos2dxActivity implements ISDKCallback {
     }
 
     @Override
-    public void onExitCancel() {
+    public void onExitCanceled() {
         nativeOnExitCancel();
     }
 
