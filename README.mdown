@@ -13,4 +13,4 @@ nosdk是用于实现一键打包的工具，用以解决国内android sdk平台�
 
 ## 文档
 
-参考 []Wiki](https://github.com/nottvlike/nosdk/wiki)
+参考 [Wiki](https://github.com/nottvlike/nosdk/wiki)
