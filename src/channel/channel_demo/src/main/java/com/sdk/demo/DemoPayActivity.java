@@ -87,7 +87,7 @@ public class DemoPayActivity extends Activity {
                                     else {
                                         Log.d(SDKManager.getInstance().TAG, String.format("Pay failed: ", payMessage));
 
-                                        SDKManager.getInstance().getSDKListener().onPayFailed();
+                                        SDKManager.getInstance().getSDKListener().onPayFailed(payMessage);
                                     }
 
                                     finish();

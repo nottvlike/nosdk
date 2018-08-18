@@ -31,43 +31,36 @@ public class SDKManager extends CommonSDKManager {
 
         @Subscribe(event = SDKEventKey.ON_INIT_SUCC)
         private void onInitSucc() {
-
+            _sdkCallback.onInitSuccess();
         }
 
         @Subscribe(event = SDKEventKey.ON_INIT_FAILED)
         private void onInitFailed(String data) {
             //初始化失败
+            _sdkCallback.onInitFailed(data);
         }
 
         @Subscribe(event = SDKEventKey.ON_LOGIN_SUCC)
         private void onLoginSucc(String sid) {
-            Toast.makeText(_activity, "login succ,sid=" + sid, Toast.LENGTH_SHORT).show();
+            LoginInfo loginInfo = SDKManager.getInstance().getLoginInfo();
+            loginInfo.userId = sid;
+
             _sdkCallback.onLoginSuccess();
         }
 
         @Subscribe(event = SDKEventKey.ON_LOGIN_FAILED)
         private void onLoginFailed(String desc) {
-            Toast.makeText(_activity,desc, Toast.LENGTH_SHORT).show();
-//            printMsg(desc);
-            _sdkCallback.onLoginFailed();
+            _sdkCallback.onLoginFailed(desc);
         }
 
         @Subscribe(event = SDKEventKey.ON_CREATE_ORDER_SUCC)
         private void onCreateOrderSucc(OrderInfo orderInfo) {
-            if (orderInfo != null) {
-                String txt = orderInfo.getOrderAmount() + "," + orderInfo.getOrderId() + "," + orderInfo.getPayWay();
-                Toast.makeText(_activity, "订单已生成，获取支付结果请留意服务端回调"+txt, Toast.LENGTH_SHORT).show();
-            }
-            Log.i(TAG, "pay create succ");
+            _sdkCallback.onPaySuccess();
         }
 
         @Subscribe(event = SDKEventKey.ON_PAY_USER_EXIT)
         private void onPayUserExit(OrderInfo orderInfo) {
-            if (orderInfo != null) {
-                String txt = orderInfo.getOrderAmount() + "," + orderInfo.getOrderId() + "," + orderInfo.getPayWay();
-                Toast.makeText(_activity, "支付界面关闭"+txt, Toast.LENGTH_SHORT).show();
-            }
-            Log.i(TAG, "pay exit");
+            _sdkCallback.onPayCanceled();
         }
 
 
@@ -79,29 +72,24 @@ public class SDKManager extends CommonSDKManager {
 
         @Subscribe(event = SDKEventKey.ON_LOGOUT_FAILED)
         private void onLogoutFailed() {
-            Toast.makeText(_activity, "logout failed", Toast.LENGTH_SHORT).show();
-            _sdkCallback.onLogoutFailed();
-//            printMsg("注销失败");
+            _sdkCallback.onLogoutFailed("");
         }
 
         @Subscribe(event = SDKEventKey.ON_EXIT_SUCC)
         private void onExit(String desc) {
-            Toast.makeText(_activity, desc, Toast.LENGTH_SHORT).show();
-            //           printMsg(desc);
-            _sdkCallback.onExitSuccess();
+            _sdkCallback.onExitSuccess(true);
         }
 
         @Subscribe(event = SDKEventKey.ON_EXIT_CANCELED)
         private void onExitCanceled(String desc) {
-            Toast.makeText(_activity, desc, Toast.LENGTH_SHORT).show();
-
             _sdkCallback.onExitCancel();
         }
     };
 
     String _pullUpInfo = "";
+
     public SDKManager() {
-        _channelName = "demo";
+        _channelName = "uc";
     }
 
     public boolean getIsLogined() {
@@ -110,10 +98,6 @@ public class SDKManager extends CommonSDKManager {
 
     public void setIsLogined(boolean isLogined) {
         _isLogined = isLogined;
-    }
-
-    public boolean getSDKHasExit() {
-        return true;
     }
 
     public static SDKManager getInstance() {
@@ -126,6 +110,8 @@ public class SDKManager extends CommonSDKManager {
 
     @Override
     public void init(String param) {
+        super.init(param);
+
         GameParamInfo gameParamInfo = new GameParamInfo();
         //gameParamInfo.setCpId(UCSdkConfig.cpId);已废用
         gameParamInfo.setGameId(UCSdkConfig.gameId);
@@ -150,6 +136,7 @@ public class SDKManager extends CommonSDKManager {
     @Override
     public void login(String param) {
         super.login(param);
+
         try {
             UCGameSdk.defaultSdk().login(_activity, null);
         } catch (AliLackActivityException e) {
@@ -190,7 +177,7 @@ public class SDKManager extends CommonSDKManager {
         paramMap.put(SDKParamKey.NOTIFY_URL, _payInfo.callbackUrl);
         paramMap.put(SDKParamKey.AMOUNT, String.valueOf(_payInfo.amount));
         paramMap.put(SDKParamKey.CP_ORDER_ID, _payInfo.orderId);
-        paramMap.put(SDKParamKey.ACCOUNT_ID, "117201900");
+        paramMap.put(SDKParamKey.ACCOUNT_ID, _playerInfo.accountId);
         paramMap.put(SDKParamKey.SIGN_TYPE, "MD5");
 
         SDKParams sdkParams = new SDKParams();
@@ -201,7 +188,6 @@ public class SDKManager extends CommonSDKManager {
 
         String sign = "71a67060ea322937a4be242709978a93";
         sdkParams.put(SDKParamKey.SIGN, sign);
-        System.out.println("sdkParams:"+sdkParams.toString());
         try {
             UCGameSdk.defaultSdk().pay(_activity, sdkParams);
         } catch (Exception e) {
@@ -223,6 +209,8 @@ public class SDKManager extends CommonSDKManager {
 
     @Override
     public void trackEvent(int trackEventType) {
+        super.trackEvent(trackEventType);
+
         TrackEventType eventType = TrackEventType.valueOf(trackEventType);
 
         if (eventType == TrackEventType.CreatePlayer || eventType == TrackEventType.EnterGame

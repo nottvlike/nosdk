@@ -1,7 +1,7 @@
 package com.common.sdktool;
 
 public class LoginInfo {
-    public long userId;
+    public String userId;
     public String userName;
     public String token;
     public String channelName;

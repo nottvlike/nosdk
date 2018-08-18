@@ -157,8 +157,8 @@ public class DemoMainActivity extends MainActivity {
     }
 
     @Override
-    public  void onLoginFailed() {
-        super.onLoginFailed();
+    public  void onLoginFailed(String message) {
+        super.onLoginFailed(message);
 
         setUserName("");
         setLoginState(LoginState.Logout);

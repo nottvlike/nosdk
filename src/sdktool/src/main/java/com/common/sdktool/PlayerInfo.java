@@ -4,6 +4,7 @@ public class PlayerInfo {
     public String accountId;
     public String playerId;
     public String playerName;
+    public String playerCreateTime;
     public int serverId;
     public String serverName;
     public int playerLevel;

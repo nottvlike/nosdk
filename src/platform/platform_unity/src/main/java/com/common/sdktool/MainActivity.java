@@ -87,12 +87,12 @@ public class MainActivity extends UnityPlayerActivity implements ISDKCallback {
 
     @Override
     public void onInitSuccess() {
-
+        UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnInitSuccess", "");
     }
 
     @Override
-    public void onInitFailed() {
-
+    public void onInitFailed(String message) {
+        UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnInitFailed", message);
     }
 
     @Override
@@ -112,28 +112,28 @@ public class MainActivity extends UnityPlayerActivity implements ISDKCallback {
     }
 
     @Override
-    public void onLoginFailed() {
+    public void onLoginFailed(String message) {
         UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnLoginFailed", "");
     }
 
     @Override
     public void onLoginCanceled() {
-
+        UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnLoginCanceled", "");
     }
 
     @Override
     public void onSwitchAccountSuccess() {
-
+        UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnSwitchAccountSuccess", "");
     }
 
     @Override
-    public void onSwitchAccountFailed() {
-
+    public void onSwitchAccountFailed(String message) {
+        UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnSwitchAccountFailed", message);
     }
 
     @Override
     public void onSwitchAccountCanceled() {
-
+        UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnSwitchAccountCanceled", "");
     }
 
     @Override
@@ -142,8 +142,8 @@ public class MainActivity extends UnityPlayerActivity implements ISDKCallback {
     }
 
     @Override
-    public void onLogoutFailed() {
-
+    public void onLogoutFailed(String message) {
+        UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnLogoutFailed", message);
     }
 
     @Override
@@ -159,27 +159,28 @@ public class MainActivity extends UnityPlayerActivity implements ISDKCallback {
     }
 
     @Override
-    public void onPayFailed() {
+    public void onPayFailed(String message) {
         UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnPayFailed", "");
     }
 
     @Override
     public void onPayCanceled() {
-
+        UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnPayCanceled", "");
     }
 
     @Override
-    public void onExitSuccess() {
-        UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnExit", "");
+    public void onExitSuccess(boolean sdkHasExit) {
+        int result = sdkHasExit ? 1 : 0;
+        UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnExit", String.valueOf(result));
     }
 
     @Override
     public void onExitCancel() {
-
+        UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnExitCancel", "");
     }
 
     @Override
-    public void onExitFailed() {
-
+    public void onExitFailed(String message) {
+        UnityPlayer.UnitySendMessage(UNITY_OBJECT, "OnExitFailed", message);
     }
 }

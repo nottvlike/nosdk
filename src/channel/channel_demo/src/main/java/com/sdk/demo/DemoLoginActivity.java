@@ -96,7 +96,7 @@ public class DemoLoginActivity extends Activity {
                                             finish();
                                         }
                                         else {
-                                            SDKManager.getInstance().getSDKListener().onLogoutFailed();
+                                            SDKManager.getInstance().getSDKListener().onLogoutFailed(loginMessage);
                                             String loginFailedMessage = String.format("Login failed: %s", loginMessage);
                                             Log.d(SDKManager.getInstance().TAG, loginFailedMessage);
                                             descriptionTextView.setText(loginFailedMessage);

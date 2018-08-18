@@ -11,7 +11,6 @@ import android.content.Intent;
 public class SDKManager extends CommonSDKManager {
     static SDKManager _instance = null;
 
-    boolean _sdkHasExit = true;
     boolean _isLogined = false;
 
     public SDKManager() {
@@ -32,10 +31,6 @@ public class SDKManager extends CommonSDKManager {
         }
 
         return _instance;
-    }
-
-    public boolean getSDKHasExit() {
-        return true;
     }
 
     @Override
@@ -86,37 +81,12 @@ public class SDKManager extends CommonSDKManager {
     public void exit() {
         super.exit();
 
-        if (_sdkHasExit) {
-            _activity.runOnUiThread(new Runnable() {
-                @Override
-                public void run() {
-                    Intent intent = new Intent(_activity, DemoExitActivity.class);
-                    _activity.startActivity(intent);
-                }
-            });
-        }
-        else {
-            _activity.runOnUiThread(new Runnable() {
-                @Override
-                public void run() {
-                    new AlertDialog.Builder(_activity)
-                            .setTitle("Warning")
-                            .setMessage("Are you sure to exit!")
-                            .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-                                @Override
-                                public void onClick(DialogInterface dialog, int which) {
-                                    _sdkCallback.onExitCancel();
-                                }
-                            })
-                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                                @Override
-                                public void onClick(DialogInterface dialog, int which) {
-                                    _sdkCallback.onExitSuccess();
-                                }
-                            })
-                            .create().show();
-                }
-            });
-        }
+        _activity.runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                Intent intent = new Intent(_activity, DemoExitActivity.class);
+                _activity.startActivity(intent);
+            }
+        });
     }
 }

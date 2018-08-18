@@ -109,8 +109,8 @@ public class MainActivity extends Cocos2dxActivity implements ISDKCallback {
     }
 
     @Override
-    public void onInitFailed() {
-        nativeOnInitFailed("");
+    public void onInitFailed(String message) {
+        nativeOnInitFailed(message);
     }
 
     @Override
@@ -120,8 +120,8 @@ public class MainActivity extends Cocos2dxActivity implements ISDKCallback {
     }
 
     @Override
-    public  void onLoginFailed() {
-        nativeOnLoginFailed("");
+    public  void onLoginFailed(String message) {
+        nativeOnLoginFailed(message);
     }
 
     @Override
@@ -136,8 +136,8 @@ public class MainActivity extends Cocos2dxActivity implements ISDKCallback {
     }
 
     @Override
-    public void onSwitchAccountFailed() {
-        nativeOnSwitchAccountFailed("");
+    public void onSwitchAccountFailed(String message) {
+        nativeOnSwitchAccountFailed(message);
     }
 
     @Override
@@ -151,8 +151,8 @@ public class MainActivity extends Cocos2dxActivity implements ISDKCallback {
     }
 
     @Override
-    public void onLogoutFailed() {
-        nativeOnLogoutFailed("");
+    public void onLogoutFailed(String message) {
+        nativeOnLogoutFailed(message);
     }
 
     @Override
@@ -161,8 +161,8 @@ public class MainActivity extends Cocos2dxActivity implements ISDKCallback {
     }
 
     @Override
-    public void onPayFailed() {
-        nativeOnPayFailed("");
+    public void onPayFailed(String message) {
+        nativeOnPayFailed(message);
     }
 
     @Override
@@ -171,8 +171,8 @@ public class MainActivity extends Cocos2dxActivity implements ISDKCallback {
     }
 
     @Override
-    public void onExitSuccess() {
-        nativeOnExitSuccess(SDKManager.getInstance().getSDKHasExit());
+    public void onExitSuccess(boolean sdkHasExit) {
+        nativeOnExitSuccess(sdkHasExit);
     }
 
     @Override
@@ -181,7 +181,7 @@ public class MainActivity extends Cocos2dxActivity implements ISDKCallback {
     }
 
     @Override
-    public void onExitFailed() {
-        nativeOnExitFailed("");
+    public void onExitFailed(String message) {
+        nativeOnExitFailed(message);
     }
 }

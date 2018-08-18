@@ -2,6 +2,7 @@ package com.common.sdktool;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.util.Log;
 
 public class CommonSDKManager {
 
@@ -35,11 +36,17 @@ public class CommonSDKManager {
         _sdkCallback = sdkListener;
     }
 
-    public void init(String custom) { }
+    public void init(String param) {
+        Log.d(TAG, "init " + param);
+    }
 
-    public void login(String custom) { }
+    public void login(String param) {
+        Log.d(TAG, "login " + param);
+    }
 
-    public void switchAccount(String custom) { }
+    public void switchAccount(String param) {
+        Log.d(TAG, "switchAccount " + param);
+    }
 
     public void logout(String custom) { }
 
@@ -55,6 +62,8 @@ public class CommonSDKManager {
         _payInfo.extra = extraData;
         _payInfo.callbackUrl = CallbackUrl;
 
+        Log.d(TAG, "pay amount : " + amount + " productId : " + productId);
+
         payImpl();
     }
 
@@ -63,12 +72,13 @@ public class CommonSDKManager {
     }
 
     public void updatePlayerInfo(String accountId, String playerId, String playerName, int playerLevel,
-                                 int serverId, String serverName, int vipLevel, int gold,
-                                 int coin, String gangId, String gangName) {
+                                 String playerCreateTime, int serverId, String serverName, int vipLevel,
+                                 int gold, int coin, String gangId, String gangName) {
         _playerInfo.accountId = accountId;
         _playerInfo.playerId = playerId;
         _playerInfo.playerName = playerName;
         _playerInfo.playerLevel = playerLevel;
+        _playerInfo.playerCreateTime = playerCreateTime;
         _playerInfo.serverId = serverId;
         _playerInfo.serverName = serverName;
         _playerInfo.vipLevel = vipLevel;
@@ -76,9 +86,12 @@ public class CommonSDKManager {
         _playerInfo.coin = coin;
         _playerInfo.gangId = gangId;
         _playerInfo.gangName = gangName;
+
+        Log.d(TAG, "updatePlayerInfo");
     }
 
     public void trackEvent(int trackEventType) {
+        Log.d(TAG, "trackEvent " + TrackEventType.valueOf(trackEventType).toString());
     }
 
     public String getChannel() {
@@ -86,39 +99,53 @@ public class CommonSDKManager {
     }
 
     public void callCustomMethod(int methodType, String param) {
+        Log.d(TAG, "callCustomMethod " + CustomMethodType.valueOf(methodType).toString());
     }
 
-    public void exit() { }
+    public void exit() {
+        Log.d(TAG, "exit");
+    }
 
     // MainActivity callback begin
 
     public void onCreate(Activity activity) {
+        Log.d(TAG, "MainActivity onCreate");
+
         this._activity = activity;
     }
 
     public void onDestroy() {
+        Log.d(TAG, "MainActivity onDestroy");
+
         this._activity = null;
     }
 
     public void onNewIntent(Intent intent) {
+        Log.d(TAG, "MainActivity onNewIntent");
     }
 
     public void onPause() {
+        Log.d(TAG, "MainActivity onPause");
     }
 
     public void onResume() {
+        Log.d(TAG, "MainActivity onResume");
     }
 
     public void onStart() {
+        Log.d(TAG, "MainActivity onStart");
     }
 
     public void onStop() {
+        Log.d(TAG, "MainActivity onStop");
     }
 
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        Log.d(TAG, "MainActivity onActivityResult " + requestCode);
     }
 
     public void onWindowFocusChanged(boolean hasFocus) {
+        Log.d(TAG, "MainActivity onWindowFocusChanged");
     }
 
     // MainActivity callback end

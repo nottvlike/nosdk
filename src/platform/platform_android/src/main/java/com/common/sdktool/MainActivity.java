@@ -83,7 +83,7 @@ public class MainActivity extends Activity implements ISDKCallback {
     }
 
     @Override
-    public void onInitFailed() {
+    public void onInitFailed(String message) {
 
     }
 
@@ -93,7 +93,7 @@ public class MainActivity extends Activity implements ISDKCallback {
     }
 
     @Override
-    public  void onLoginFailed() {
+    public  void onLoginFailed(String message) {
 
     }
 
@@ -108,7 +108,7 @@ public class MainActivity extends Activity implements ISDKCallback {
     }
 
     @Override
-    public void onSwitchAccountFailed() {
+    public void onSwitchAccountFailed(String message) {
 
     }
 
@@ -123,7 +123,7 @@ public class MainActivity extends Activity implements ISDKCallback {
     }
 
     @Override
-    public void onLogoutFailed() {
+    public void onLogoutFailed(String message) {
 
     }
 
@@ -133,7 +133,7 @@ public class MainActivity extends Activity implements ISDKCallback {
     }
 
     @Override
-    public void onPayFailed() {
+    public void onPayFailed(String message) {
 
     }
 
@@ -143,7 +143,7 @@ public class MainActivity extends Activity implements ISDKCallback {
     }
 
     @Override
-    public void onExitSuccess() {
+    public void onExitSuccess(boolean sdkHasExit) {
         finish();
         android.os.Process.killProcess(android.os.Process.myPid());
     }
@@ -154,7 +154,7 @@ public class MainActivity extends Activity implements ISDKCallback {
     }
 
     @Override
-    public void onExitFailed() {
+    public void onExitFailed(String message) {
 
     }
 }
