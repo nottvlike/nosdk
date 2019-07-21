@@ -1,0 +1,28 @@
+#lua-mxml
+
+##简介
+绑定了mini-mxl一部分接口的lua实现，现在可以基本实现解析xml。
+
+每一个xml的节点都需要使用两层的table去表示，例如：
+	
+	manifest = table: 0x7fde27c13230
+    {
+        1 = table: 0x7fde27c145f0
+        {
+	        xmlns:android = http://schemas.android.com/apk/res/android
+            android:versionCode = 1
+            android:versionName = 1.0
+        }
+	}
+
+第一层数组处理重复节点，第二层保存了每一个节点上的属性。
+
+##使用
+
+*	首先编译 mini-xml;
+*	编译lua-mxml，mac和linux下使用一下命令：
+		
+		gcc -shared -g -O2 -Wall lmxml.c -lmxml -llua -o mxml.so
+*	将生成的so库和lua文件放在同一个目录
+
+具体可以运行下test.lua看看效果
