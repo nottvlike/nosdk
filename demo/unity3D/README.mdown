@@ -1,0 +1,13 @@
+# NoSDKUnityDemo
+
+nosdk的unity demo，由于Assets/Plugins/Android只存放了AndroidManifest.xml文件，jar包没拷贝进来，所以使用unity打出的apk包无法运行，你可以选择以下任意一种方式打一个可以运行的apk包：
+
+* 使用demo工程打出一个apk，改名为demo.apk，放在nosdk/main目录，更改nosdk/main/build.lua:
+
+    buildDefault('demo.apk', 'unity', 'uc', nil, 'demo_new.apk', { keystore = './tool/nosdk.keystore', alias = 'nosdk', password = 'nosdk123' }, 'demo_sign.apk')
+
+    最后安装打开demo_sign.apk；
+
+* 执行nosdk/src/refresh_jars.bat或者nosdk/src/refresh_jars.sh，将生成的nosdk/main/platform/cocos2dx, nosdk/main/channel/uc和main/sdktool这几个目录的资源放在demo工程Assets/Plugins/Android目录下，然后打包安装运行（注意生成的这几个目录下的luaconfig目录需要忽略，而jars目录的jar包需要拷贝到demo工程的Assets/Plugins/Android/libs下）。
+
+当然你也可以事先将nosdk里demo或者uc channel的资源预先拷贝到Assets/Plugins/Android里，需要注意的是nosdk里的jars目录和luconfig目录是我自己定义的特殊目录，jars目录的jar包你可以放在Assets/Plugins/Android目录里，也可以放在Assets/Plugins/Android/libs目录里，至于luaconfig可以忽略。

@@ -1,0 +1,17 @@
+# NoSDKCocos2dxV3Demo
+
+nosdk的cocos2dx demo，由于app/libs没有sdktool.jar,platform_cocos2dx.jar和channel_demo.jar文件，所以打出的apk包无法运行，你可以选择以下任意一种方式打一个可以运行的apk包：
+
+* 使用demo工程打出一个apk，改名为demo.apk，放在nosdk/main目录，更改nosdk/main/build.lua:
+    
+  buildDefault('demo.apk', 'cocos2dx', 'uc', nil, 'demo_new.apk', {
+      keystore = './tool/nosdk.keystore',
+      alias = 'nosdk',
+      password = 'nosdk123' 
+  }, 'demo_sign.apk')
+
+  最后安装打开demo_sign.apk；
+    
+* 执行nosdk/src/refresh_jars.bat或者nosdk/src/refresh_jars.sh，将生成的nosdk/main/platform/cocos2dx, nosdk/main/channel/uc和main/sdktool这几个目录的资源放在demo工程app目录下，然后打包安装运行（注意生成的这几个目录下的luaconfig目录需要忽略，而jars目录的jar包需要拷贝到demo工程的app/libs下）。
+
+发现Classes目录没上传，才想起来自己只是上传了android工程这部分文件，恰好漏了，补充了一下，用的话还是要先把Classes拷贝到正确的位置。
